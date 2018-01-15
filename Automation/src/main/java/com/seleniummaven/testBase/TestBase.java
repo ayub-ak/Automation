@@ -17,6 +17,10 @@ import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.chrome.*;
 
@@ -37,7 +41,26 @@ public class TestBase
 	public File f1;
 	public FileInputStream file;
 	public static Config config = new Config(OR);
-		
+	
+	@BeforeClass
+	public void loadProperties() throws IOException
+	{
+		//testbase = new TestBase();
+		loadPropertiesFile();
+		logger.info("Loading the properties");
+		getBrowser("firefox"); //Hardcoding needs to be removed
+		//selenium = new Selenium();
+		//fns = new AppSpecificFns();
+		//config = new Config(OR);
+	}
+	
+	@BeforeMethod
+	public void browserLaunch()
+	{
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		selenium.setImplicitWait(Integer.parseInt(config.getImplcitWait()));
+		selenium.setPageLoadTimeout(Integer.parseInt(config.getPageLoadTimeOut()));
+	}
 	public void getBrowser(String browser)
 	{
 		if(System.getProperty("os.name").contains("Window")) //To find the OS
@@ -94,6 +117,12 @@ public class TestBase
 		OR.load(file);
 		logger.info("Loading objectrepository.properties");
 		
+	}
+	
+	@AfterClass
+	public void tearUp() throws InterruptedException
+	{
+		//selenium.browserClose();
 	}
 	
 /*	public static void main(String[] args) throws IOException 

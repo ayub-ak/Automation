@@ -20,29 +20,6 @@ import junit.framework.Assert;
 public class Search extends TestBase
 {
 	private final static Logger logger = LoggerHelper.getLogger(Search.class);
-	//TestBase testbase;
-	//Selenium selenium;
-	//AppSpecificFns fns;
-	//Config config;
-	@BeforeClass
-	public void loadProperties() throws IOException
-	{
-		//testbase = new TestBase();
-		testbase.loadPropertiesFile();
-		logger.info("Loading the properties");
-		testbase.getBrowser("firefox"); //Hardcoding needs to be removed
-		//selenium = new Selenium();
-		//fns = new AppSpecificFns();
-		//config = new Config(OR);
-	}
-	
-	@BeforeMethod
-	public void browserLaunch()
-	{
-		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		selenium.setImplicitWait(Integer.parseInt(config.getImplcitWait()));
-		selenium.setPageLoadTimeout(Integer.parseInt(config.getPageLoadTimeOut()));
-	}
 	
 	@Test
 	public void validateSearch() throws Exception //"Printed dress" and "5 results have been found" are hardcode that needs to be changed based on given input
@@ -63,9 +40,4 @@ public class Search extends TestBase
 		//selenium.getTextFromWebElement(locator)
 	}
 	
-	@AfterMethod
-	public void tearUp()
-	{
-		//selenium.browserClose();
-	}
 }

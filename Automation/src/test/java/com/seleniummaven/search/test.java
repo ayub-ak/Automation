@@ -15,14 +15,6 @@ public class test
 	AppSpecificFns as = new AppSpecificFns();
 	private final static Logger logger = LoggerHelper.getLogger(test.class);
 	
-	@BeforeClass
-	public void setUp() throws Exception
-	{
-		TestBase tb = new TestBase();
-		tb.loadPropertiesFile();
-		tb.getBrowser("firefox");
-	}
-	
 	@Test
 	public void testmethod() throws Exception 
 	{

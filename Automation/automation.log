@@ -20,3 +20,41 @@
 2018-01-14 14:48:10 INFO  Search:51 - Results Label WebElement appearance status : true
 2018-01-14 14:48:10 INFO  Selenium:56 - Getting locator type : class Getting locator value : heading-counter
 2018-01-14 14:48:10 INFO  Selenium:512 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-01-15 16:29:13 INFO  TestBase:105 - Execution starts
+2018-01-15 16:29:13 INFO  TestBase:111 - Loading config.properties
+2018-01-15 16:29:13 INFO  TestBase:117 - Loading objectrepository.properties
+2018-01-15 16:29:13 INFO  TestBase:49 - Loading the properties
+2018-01-15 16:29:24 INFO  TestBase:71 - Launching Firefox browser
+2018-01-15 16:29:24 INFO  Selenium:263 - Implicit wait is called
+2018-01-15 16:29:24 INFO  Selenium:279 - Setting page loading timeout
+2018-01-15 16:29:35 INFO  Selenium:134 - Navigating to http://automationpractice.com/index.php
+2018-01-15 16:29:35 INFO  Selenium:109 - Typed Printed dress text
+2018-01-15 16:29:35 INFO  AppSpecificFns:43 - Searching for Printed dress
+2018-01-15 16:29:38 INFO  Selenium:82 - WebElement for the locator is clicked
+2018-01-15 16:29:38 INFO  Selenium:202 - Closing the browser
+2018-01-15 16:29:39 INFO  Selenium:266 - Exception thrown : [Ljava.lang.StackTraceElement;@4d14b6c2
+2018-01-15 16:29:39 INFO  Selenium:282 - Exception thrown : [Ljava.lang.StackTraceElement;@c05fddc
+2018-01-15 16:29:39 INFO  Selenium:202 - Closing the browser
+2018-01-15 16:29:39 INFO  Selenium:206 - Exception thrown : [Ljava.lang.StackTraceElement;@97e93f1
+2018-01-15 16:32:42 INFO  TestBase:106 - Execution starts
+2018-01-15 16:32:42 INFO  TestBase:112 - Loading config.properties
+2018-01-15 16:32:42 INFO  TestBase:118 - Loading objectrepository.properties
+2018-01-15 16:32:42 INFO  TestBase:50 - Loading the properties
+2018-01-15 16:32:49 INFO  TestBase:72 - Launching Firefox browser
+2018-01-15 16:32:49 INFO  Selenium:263 - Implicit wait is called
+2018-01-15 16:32:49 INFO  Selenium:279 - Setting page loading timeout
+2018-01-15 16:32:58 INFO  Selenium:134 - Navigating to http://automationpractice.com/index.php
+2018-01-15 16:32:58 INFO  Selenium:109 - Typed Printed dress text
+2018-01-15 16:32:58 INFO  AppSpecificFns:43 - Searching for Printed dress
+2018-01-15 16:33:00 INFO  Selenium:82 - WebElement for the locator is clicked
+2018-01-15 16:33:00 INFO  Selenium:263 - Implicit wait is called
+2018-01-15 16:33:00 INFO  Selenium:279 - Setting page loading timeout
+2018-01-15 16:33:03 INFO  Selenium:134 - Navigating to http://automationpractice.com/index.php
+2018-01-15 16:33:03 INFO  Selenium:109 - Typed Printed dress text
+2018-01-15 16:33:03 INFO  AppSpecificFns:43 - Searching for Printed dress
+2018-01-15 16:33:04 INFO  Selenium:82 - WebElement for the locator is clicked
+2018-01-15 16:33:04 INFO  Selenium:56 - Getting locator type : class Getting locator value : heading-counter
+2018-01-15 16:33:04 INFO  Selenium:512 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-01-15 16:33:04 INFO  Search:28 - Results Label WebElement appearance status : true
+2018-01-15 16:33:04 INFO  Selenium:56 - Getting locator type : class Getting locator value : heading-counter
+2018-01-15 16:33:04 INFO  Selenium:512 - Waiting for text to appear for the locator type : class locator value : heading-counter
