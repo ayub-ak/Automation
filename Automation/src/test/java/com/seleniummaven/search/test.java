@@ -31,9 +31,4 @@ public class test
 		System.out.println("Value : "+val);
 	}
 	
-	@Test
-	public void testfn1()
-	{
-		System.out.println("Test 1");
-	}
 }
