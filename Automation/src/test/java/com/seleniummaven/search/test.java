@@ -30,4 +30,10 @@ public class test
 		boolean val =as.loginToApp();
 		System.out.println("Value : "+val);
 	}
+	
+	@Test
+	public void testfn1()
+	{
+		System.out.println("Test 1");
+	}
 }
