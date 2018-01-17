@@ -29,7 +29,7 @@ public class Search extends TestBase
 				selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
 						"5 results have been found"));
 		Assert.assertTrue("Expected result is matched",
-				selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
+			selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
 						"5 results have been found"));
 	}
 	
@@ -37,7 +37,10 @@ public class Search extends TestBase
 	public void OpenProdPageBySearch() throws Exception
 	{
 		fns.searchProduct("searchbox", "Printed dress");
-		//selenium.getTextFromWebElement(locator)
+		selenium.clickElement("searchresultitem");
+		Assert.assertTrue("Expected result is matched", 
+				selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"),
+						"Printed Summer Dress"));
 	}
 	
 }

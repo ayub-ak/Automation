@@ -58,3 +58,50 @@
 2018-01-15 16:33:04 INFO  Search:28 - Results Label WebElement appearance status : true
 2018-01-15 16:33:04 INFO  Selenium:56 - Getting locator type : class Getting locator value : heading-counter
 2018-01-15 16:33:04 INFO  Selenium:512 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-01-16 18:20:07 INFO  TestBase:106 - Execution starts
+2018-01-16 18:20:07 INFO  TestBase:112 - Loading config.properties
+2018-01-16 18:20:07 INFO  TestBase:118 - Loading objectrepository.properties
+2018-01-16 18:20:07 INFO  TestBase:50 - Loading the properties
+2018-01-16 18:20:22 INFO  TestBase:72 - Launching Firefox browser
+2018-01-16 18:20:22 INFO  Selenium:263 - Implicit wait is called
+2018-01-16 18:20:22 INFO  Selenium:279 - Setting page loading timeout
+2018-01-16 18:20:40 INFO  Selenium:134 - Navigating to http://automationpractice.com/index.php
+2018-01-16 18:20:40 INFO  Selenium:109 - Typed Printed dress text
+2018-01-16 18:20:40 INFO  AppSpecificFns:43 - Searching for Printed dress
+2018-01-16 18:20:44 INFO  Selenium:82 - WebElement for the locator is clicked
+2018-01-16 18:20:44 INFO  Selenium:56 - Getting locator type : class Getting locator value : heading-counter
+2018-01-16 18:20:44 INFO  Selenium:512 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-01-16 18:20:45 INFO  Search:28 - Results Label WebElement appearance status : true
+2018-01-16 18:20:45 INFO  Selenium:56 - Getting locator type : class Getting locator value : heading-counter
+2018-01-16 18:20:45 INFO  Selenium:512 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-01-17 20:58:14 INFO  TestBase:106 - Execution starts
+2018-01-17 20:58:14 INFO  TestBase:112 - Loading config.properties
+2018-01-17 20:58:14 INFO  TestBase:118 - Loading objectrepository.properties
+2018-01-17 20:58:14 INFO  TestBase:50 - Loading the properties
+2018-01-17 20:58:21 INFO  TestBase:72 - Launching Firefox browser
+2018-01-17 20:58:21 INFO  Selenium:263 - Implicit wait is called
+2018-01-17 20:58:21 INFO  Selenium:279 - Setting page loading timeout
+2018-01-17 20:58:37 INFO  Selenium:134 - Navigating to http://automationpractice.com/index.php
+2018-01-17 20:58:37 INFO  Selenium:109 - Typed Printed dress text
+2018-01-17 20:58:37 INFO  AppSpecificFns:43 - Searching for Printed dress
+2018-01-17 20:58:39 INFO  Selenium:82 - WebElement for the locator is clicked
+2018-01-17 20:58:39 INFO  Selenium:323 - Exception thrown : [Ljava.lang.StackTraceElement;@74ea2410
+2018-01-17 20:58:39 INFO  Selenium:56 - Getting locator type : class Getting locator value : heading-counter
+2018-01-17 20:58:39 INFO  Selenium:512 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-01-17 20:58:54 INFO  Selenium:559 - Exception thrown : [Ljava.lang.StackTraceElement;@6c284af
+2018-01-17 21:01:18 INFO  TestBase:106 - Execution starts
+2018-01-17 21:01:18 INFO  TestBase:112 - Loading config.properties
+2018-01-17 21:01:18 INFO  TestBase:118 - Loading objectrepository.properties
+2018-01-17 21:01:18 INFO  TestBase:50 - Loading the properties
+2018-01-17 21:01:23 INFO  TestBase:72 - Launching Firefox browser
+2018-01-17 21:01:23 INFO  Selenium:263 - Implicit wait is called
+2018-01-17 21:01:23 INFO  Selenium:279 - Setting page loading timeout
+2018-01-17 21:01:41 INFO  Selenium:134 - Navigating to http://automationpractice.com/index.php
+2018-01-17 21:01:41 INFO  Selenium:109 - Typed Printed dress text
+2018-01-17 21:01:41 INFO  AppSpecificFns:43 - Searching for Printed dress
+2018-01-17 21:01:44 INFO  Selenium:82 - WebElement for the locator is clicked
+2018-01-17 21:01:44 INFO  Selenium:56 - Getting locator type : class Getting locator value : heading-counter
+2018-01-17 21:01:44 INFO  Selenium:512 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-01-17 21:01:44 INFO  Search:28 - Results Label WebElement appearance status : true
+2018-01-17 21:01:44 INFO  Selenium:56 - Getting locator type : class Getting locator value : heading-counter
+2018-01-17 21:01:44 INFO  Selenium:512 - Waiting for text to appear for the locator type : class locator value : heading-counter

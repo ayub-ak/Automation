@@ -1,0 +1,10 @@
+<suite name="Automation">
+  <test name="Test One" >
+    <classes>
+        <class name="com.seleniummaven.search.Search" />
+          <methods>
+              <include name="validateSearch" />
+          </methods>       
+    </classes>
+    </test> 
+</suite>
