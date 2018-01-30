@@ -5,7 +5,7 @@
     <classes>
       <class name="com.seleniummaven.search.Search">
         <methods>
-          <include name="validateSearch"/>
+          <include name="OpenProdPageBySearch"/>
           <include name="loadProperties"/>
           <include name="tearUp"/>
           <include name="browserLaunch"/>

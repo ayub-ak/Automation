@@ -17,6 +17,11 @@ public class AppSpecificFns extends TestBase
 	//TestBase testbase = new TestBase();
 	//Config conf = new Config(OR);
 	//Selenium selenium = new Selenium();
+	
+	/**
+	 * @return true if login successful else return false
+	 * @throws Exception
+	 */
 	public boolean loginToApp() throws Exception
 	{
 		selenium.openURL(config.getURL());
@@ -36,12 +41,21 @@ public class AppSpecificFns extends TestBase
 		}
 	}
 	
-	public void searchProduct(String locator,String searchText) throws Exception
+	/**
+	 * @param locator - Element locator
+	 * @param searchText - Text to be searched
+	 * @param keyEnter - if pressenterkey, enter key will be pressed. if noenterkey, enter key will not get pressed
+	 * @throws Exception
+	 */
+	public void searchProduct(String locator,String searchText,String keyEnter) throws Exception
 	{
 		selenium.openURL(config.getURL());
 		selenium.typeText(locator,searchText);
 		logger.info("Searching for "+searchText);
-		selenium.clickElement("searchbutton");
+		if(keyEnter.equalsIgnoreCase("pressenterkey"))
+			selenium.pressEnterBySendKeys(locator);
+		else
+			selenium.clickElement("searchbutton");
 	}
 	
 /*	public static void main(String args[]) throws Exception

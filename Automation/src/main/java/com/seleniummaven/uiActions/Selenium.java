@@ -13,6 +13,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -118,6 +119,28 @@ public class Selenium extends TestBase
 		{
 			logger.info("Locator should not be null");
 			return "Locator is null";
+		}
+	}
+	
+	public String pressEnterBySendKeys(String locator) throws Exception
+	{
+		if(locator!=null)
+		{
+			try
+			{
+				getWebElement(locator).sendKeys(Keys.ENTER);
+				logger.info("Enter key pressed");
+				return "success";
+			}catch(Exception e)
+			{
+				logger.info("Element not found for the locator : "+locator);
+				return "Element not found for the locator : "+locator; 
+			}
+		}
+		else
+		{
+			logger.info("Element not found for the locator : "+locator);
+			return "Element not found for the locator : "+locator;
 		}
 	}
 	
