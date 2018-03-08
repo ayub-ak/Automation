@@ -91,4 +91,20 @@ public class Search extends TestBase
 			selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
 						"5 results have been found"));
 	}
+	
+	/**
+	 * Search - numbers, special characters should be acceptable 
+	 * @throws Exception 
+	 */
+	@Test
+	public void searchUsingSpecialChar() throws Exception
+	{
+		fns.searchProduct("searchbox", "Faded Short Sleeve T-shirts","noenterkey");
+		logger.info("searchUsingSpecialChar status : "+
+				selenium.waitForTextToAppear(15, OR.getProperty("searchitemspecialchar"), 
+						"Faded Short Sleeve T-shirts"));
+		Assert.assertTrue("Expected result is matched",
+			selenium.waitForTextToAppear(15, OR.getProperty("searchitemspecialchar"), 
+						"Faded Short Sleeve T-shirts"));
+	}
 }

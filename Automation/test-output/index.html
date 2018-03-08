@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Automation">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.seleniummaven.search.Search" hash-for-method="searchItemByEnterKey">searchItemByEnterKey</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.seleniummaven.search.Search" hash-for-method="searchUsingSpecialChar">searchUsingSpecialChar</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation -->
@@ -125,9 +125,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchItemByEnterKey">
-                  </a> <!-- searchItemByEnterKey -->
-                  <span class="method-name">searchItemByEnterKey</span>
+                  <a name="searchUsingSpecialChar">
+                  </a> <!-- searchUsingSpecialChar -->
+                  <span class="method-name">searchUsingSpecialChar</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,7 +146,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;com.seleniummaven.search.Search&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;searchItemByEnterKey&quot;/&gt;
+          &lt;include name=&quot;searchUsingSpecialChar&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.seleniummaven.search.Search --&gt;
     &lt;/classes&gt;
@@ -190,9 +190,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchItemByEnterKey')
+data.setCell(0, 1, 'searchUsingSpecialChar')
 data.setCell(0, 2, 'com.seleniummaven.search.Search')
-data.setCell(0, 3, 20761);
+data.setCell(0, 3, 20347);
 window.suiteTableData['Automation']= { tableData: data, tableDiv: 'times-div-Automation'}
 return data;
 }
@@ -212,7 +212,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -221,6 +221,8 @@ return data;
                 <span class="ignored-method-name">OpenProdPageBySearch</span>
                 <br/>
                 <span class="ignored-method-name">validateSearch</span>
+                <br/>
+                <span class="ignored-method-name">searchItemByEnterKey</span>
                 <br/>
                 <span class="ignored-method-name">noResultsFound</span>
                 <br/>
@@ -241,15 +243,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">browserLaunch</span>
-                <span class="method-start">13175 ms</span>
+                <span class="method-start">18088 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">searchItemByEnterKey</span>
-                <span class="method-start">13191 ms</span>
+                <span class="method-name">searchUsingSpecialChar</span>
+                <span class="method-start">18331 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">33954 ms</span>
+                <span class="method-start">38680 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

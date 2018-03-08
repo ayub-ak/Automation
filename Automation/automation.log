@@ -263,3 +263,79 @@
 2018-01-30 20:20:27 INFO  Search:87 - Results Label WebElement appearance status : true
 2018-01-30 20:20:27 INFO  Selenium:57 - Getting locator type : class Getting locator value : heading-counter
 2018-01-30 20:20:27 INFO  Selenium:535 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-02-07 21:18:21 INFO  TestBase:106 - Execution starts
+2018-02-07 21:18:21 INFO  TestBase:112 - Loading config.properties
+2018-02-07 21:18:21 INFO  TestBase:118 - Loading objectrepository.properties
+2018-02-07 21:18:21 INFO  TestBase:50 - Loading the properties
+2018-02-07 21:18:41 INFO  TestBase:72 - Launching Firefox browser
+2018-02-07 21:18:41 INFO  Selenium:286 - Implicit wait is called
+2018-02-07 21:18:41 INFO  Selenium:302 - Setting page loading timeout
+2018-02-07 21:19:42 INFO  Selenium:157 - Navigating to http://automationpractice.com/index.php
+2018-02-07 21:19:43 INFO  Selenium:110 - Typed Faded Short Sleeve T-shirts text
+2018-02-07 21:19:43 INFO  AppSpecificFns:54 - Searching for Faded Short Sleeve T-shirts
+2018-02-07 21:19:51 INFO  Selenium:83 - WebElement for the locator is clicked
+2018-02-07 21:20:02 INFO  Selenium:83 - WebElement for the locator is clicked
+2018-02-07 21:21:17 INFO  TestBase:106 - Execution starts
+2018-02-07 21:21:17 INFO  TestBase:112 - Loading config.properties
+2018-02-07 21:21:17 INFO  TestBase:118 - Loading objectrepository.properties
+2018-02-07 21:21:17 INFO  TestBase:50 - Loading the properties
+2018-02-07 21:21:24 INFO  TestBase:72 - Launching Firefox browser
+2018-02-07 21:21:24 INFO  Selenium:286 - Implicit wait is called
+2018-02-07 21:21:24 INFO  Selenium:302 - Setting page loading timeout
+2018-02-07 21:21:46 INFO  Selenium:157 - Navigating to http://automationpractice.com/index.php
+2018-02-07 21:21:46 INFO  Selenium:110 - Typed Faded Short Sleeve T-shirts text
+2018-02-07 21:21:46 INFO  AppSpecificFns:54 - Searching for Faded Short Sleeve T-shirts
+2018-02-07 21:22:00 INFO  Selenium:83 - WebElement for the locator is clicked
+2018-02-07 21:22:12 INFO  Selenium:57 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/ul/li/div/div/div[2]/h5/a
+2018-02-07 21:22:12 INFO  Selenium:571 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/ul/li/div/div/div[2]/h5/a
+2018-02-07 21:22:33 INFO  Selenium:582 - Exception thrown : [Ljava.lang.StackTraceElement;@2af616d3
+2018-02-07 21:23:08 INFO  Search:103 - searchUsingSpecialChar status : false
+2018-02-07 21:23:14 INFO  Selenium:57 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/ul/li/div/div/div[2]/h5/a
+2018-02-07 21:23:14 INFO  Selenium:571 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/ul/li/div/div/div[2]/h5/a
+2018-02-07 21:23:35 INFO  Selenium:582 - Exception thrown : [Ljava.lang.StackTraceElement;@4108fa66
+2018-02-08 20:34:50 INFO  TestBase:106 - Execution starts
+2018-02-08 20:34:50 INFO  TestBase:112 - Loading config.properties
+2018-02-08 20:34:50 INFO  TestBase:118 - Loading objectrepository.properties
+2018-02-08 20:34:50 INFO  TestBase:50 - Loading the properties
+2018-02-08 20:34:58 INFO  TestBase:72 - Launching Firefox browser
+2018-02-08 20:34:58 INFO  Selenium:286 - Implicit wait is called
+2018-02-08 20:34:58 INFO  Selenium:302 - Setting page loading timeout
+2018-02-08 20:35:39 INFO  Selenium:157 - Navigating to http://automationpractice.com/index.php
+2018-02-08 20:35:44 INFO  Selenium:110 - Typed Faded Short Sleeve T-shirts text
+2018-02-08 20:35:46 INFO  AppSpecificFns:54 - Searching for Faded Short Sleeve T-shirts
+2018-02-08 20:35:57 INFO  Selenium:83 - WebElement for the locator is clicked
+2018-02-08 20:37:05 INFO  Selenium:57 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/ul/li/div/div/div[2]/h5/a
+2018-02-08 20:37:25 INFO  Selenium:571 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/ul/li/div/div/div[2]/h5/a
+2018-02-08 20:40:02 INFO  Selenium:582 - Exception thrown : [Ljava.lang.StackTraceElement;@2af616d3
+2018-02-08 20:43:24 INFO  TestBase:106 - Execution starts
+2018-02-08 20:43:24 INFO  TestBase:112 - Loading config.properties
+2018-02-08 20:43:24 INFO  TestBase:118 - Loading objectrepository.properties
+2018-02-08 20:43:24 INFO  TestBase:50 - Loading the properties
+2018-02-08 20:43:32 INFO  TestBase:72 - Launching Firefox browser
+2018-02-08 20:43:32 INFO  Selenium:286 - Implicit wait is called
+2018-02-08 20:43:32 INFO  Selenium:302 - Setting page loading timeout
+2018-02-08 20:43:41 INFO  Selenium:157 - Navigating to http://automationpractice.com/index.php
+2018-02-08 20:43:42 INFO  Selenium:110 - Typed Faded Short Sleeve T-shirts text
+2018-02-08 20:43:42 INFO  AppSpecificFns:54 - Searching for Faded Short Sleeve T-shirts
+2018-02-08 20:43:44 INFO  Selenium:83 - WebElement for the locator is clicked
+2018-02-08 20:43:44 INFO  Selenium:57 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-02-08 20:43:44 INFO  Selenium:571 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-02-08 20:43:44 INFO  Search:103 - searchUsingSpecialChar status : true
+2018-02-08 20:43:44 INFO  Selenium:57 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-02-08 20:43:44 INFO  Selenium:571 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-03-07 20:57:49 INFO  TestBase:106 - Execution starts
+2018-03-07 20:57:49 INFO  TestBase:112 - Loading config.properties
+2018-03-07 20:57:49 INFO  TestBase:118 - Loading objectrepository.properties
+2018-03-07 20:57:49 INFO  TestBase:50 - Loading the properties
+2018-03-07 20:58:07 INFO  TestBase:72 - Launching Firefox browser
+2018-03-07 20:58:07 INFO  Selenium:286 - Implicit wait is called
+2018-03-07 20:58:07 INFO  Selenium:302 - Setting page loading timeout
+2018-03-07 20:58:25 INFO  Selenium:157 - Navigating to http://automationpractice.com/index.php
+2018-03-07 20:58:25 INFO  Selenium:110 - Typed Faded Short Sleeve T-shirts text
+2018-03-07 20:58:25 INFO  AppSpecificFns:54 - Searching for Faded Short Sleeve T-shirts
+2018-03-07 20:58:27 INFO  Selenium:83 - WebElement for the locator is clicked
+2018-03-07 20:58:27 INFO  Selenium:57 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-03-07 20:58:27 INFO  Selenium:571 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-03-07 20:58:27 INFO  Search:103 - searchUsingSpecialChar status : true
+2018-03-07 20:58:27 INFO  Selenium:57 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-03-07 20:58:27 INFO  Selenium:571 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
