@@ -5,9 +5,9 @@
     <classes>
       <class name="com.seleniummaven.search.Search">
         <methods>
+          <include name="searchResultDisplay"/>
           <include name="loadProperties"/>
           <include name="tearUp"/>
-          <include name="searchUsingSpecialChar"/>
           <include name="browserLaunch"/>
         </methods>
       </class> <!-- com.seleniummaven.search.Search -->

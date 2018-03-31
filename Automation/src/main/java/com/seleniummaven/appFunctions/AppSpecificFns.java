@@ -4,9 +4,14 @@ import com.seleniummaven.testBase.TestBase;
 import com.seleniummaven.uiActions.Selenium;
 import com.seleniummaven.uiActions.VerificationHelper;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 
 import com.seleniummaven.testBase.Config;
 //import com.seleniummaven.testBase.TestBase;
@@ -56,6 +61,32 @@ public class AppSpecificFns extends TestBase
 			selenium.pressEnterBySendKeys(locator);
 		else
 			selenium.clickElement("searchbutton");
+	}
+	
+	public boolean resultDisplay(String locator, String searchText) throws Exception
+	{
+		boolean isTextPresent=false;
+		selenium.openURL(config.getURL());
+		selenium.typeText(locator, "Dress");
+		//Thread.sleep(4000);
+		//selenium.sendKeyAction(locator, Keys.ARROW_DOWN);
+		logger.info("Searching for "+searchText);
+		String results[] =selenium.getList();	
+		for(String s : results)
+		{
+			if(s.contains(searchText))
+			{
+				isTextPresent=true;
+				logger.info("Searched text <"+searchText+"> is present in result : "+s);
+			}
+			else
+			{
+				isTextPresent=false;
+				logger.info("Searched text <"+searchText+"> is not present in result : "+s);
+				break;
+			}
+		}
+		return isTextPresent;
 	}
 	
 /*	public static void main(String args[]) throws Exception

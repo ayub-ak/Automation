@@ -31,15 +31,20 @@ public class Search extends TestBase
 	 * Search - User should be able to perform search operation
 	 */
 	@Test
-	public void validateSearch() throws Exception //"Printed dress" and "5 results have been found" are hardcode that needs to be changed based on given input
+	public void validateSearch() throws Exception //"Printed dress" and "5 results have been found" are hardcoded that needs to be changed based on given input
 	{
 		fns.searchProduct("searchbox", "Printed dress","noenterkey");
-		logger.info("Results Label WebElement appearance status : "+
-				selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
-						"5 results have been found"));
-		Assert.assertTrue("Expected result is matched",
-			selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
-						"5 results have been found"));
+		if(selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
+				"5 results have been found"))
+		{
+			logger.info("Search successful");
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			logger.info("Search failed");
+			Assert.assertTrue(false);
+		}
 	}
 	
 	/**
@@ -51,12 +56,17 @@ public class Search extends TestBase
 	{
 		fns.searchProduct("searchbox", "Printed dress","noenterkey");
 		selenium.clickElement("searchresultitem");
-		logger.info("OpenProdPageBySearch status : "+
-				selenium.waitForTextToAppear(15, OR.getProperty("searchitemtxt"),
-						"Printed Summer Dress"));
-		Assert.assertTrue("Expected result is matched", 
-				selenium.waitForTextToAppear(15, OR.getProperty("searchitemtxt"),
-						"Printed Summer Dress"));
+		if(selenium.waitForTextToAppear(15, OR.getProperty("searchitemtxt"),
+				"Printed Summer Dress"))
+		{
+			logger.info("Able to Search and Open Product details Page");
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			logger.info("Search an item and open product details page is failed");
+			Assert.assertTrue(false);
+		}
 	}
 	
 	/**
@@ -67,13 +77,17 @@ public class Search extends TestBase
 	public void noResultsFound() throws Exception
 	{
 		fns.searchProduct("searchbox", "dummy data","noenterkey");
-		logger.info("noResultsFound : "+
-				selenium.waitForTextToAppear(15, OR.getProperty("noresults"),
-						"No results were found for your search \"dummy data\""));		
-		Assert.assertTrue("Expected result is matched", 
-				selenium.waitForTextToAppear(15, OR.getProperty("noresults"),
-						"No results were found for your search \"dummy data\""));
-		//selenium.getTextFromWebElement("noresults").contains("No results were found for your search")
+		if(selenium.waitForTextToAppear(15, OR.getProperty("noresults"),
+						"No results were found for your search \"dummy data\""))
+		{
+			logger.info("No Results found");
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			logger.info("Issue in identifying the msg - No results were found");
+			Assert.assertTrue(false); 
+		}
 	}
 	
 	/**
@@ -84,12 +98,17 @@ public class Search extends TestBase
 	public void searchItemByEnterKey() throws Exception
 	{
 		fns.searchProduct("searchbox", "Printed dress","pressenterkey");
-		logger.info("Results Label WebElement appearance status : "+
-				selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
-						"5 results have been found"));
-		Assert.assertTrue("Expected result is matched",
-			selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
-						"5 results have been found"));
+		if(selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
+				"5 results have been found"))
+		{
+			logger.info("Result displayed");
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			logger.info("Result not displayed");
+			Assert.assertTrue(false);
+		}
 	}
 	
 	/**
@@ -100,11 +119,32 @@ public class Search extends TestBase
 	public void searchUsingSpecialChar() throws Exception
 	{
 		fns.searchProduct("searchbox", "Faded Short Sleeve T-shirts","noenterkey");
-		logger.info("searchUsingSpecialChar status : "+
-				selenium.waitForTextToAppear(15, OR.getProperty("searchitemspecialchar"), 
-						"Faded Short Sleeve T-shirts"));
-		Assert.assertTrue("Expected result is matched",
-			selenium.waitForTextToAppear(15, OR.getProperty("searchitemspecialchar"), 
-						"Faded Short Sleeve T-shirts"));
+		if(selenium.waitForTextToAppear(15, OR.getProperty("searchitemspecialchar"),
+				"Faded Short Sleeve T-shirts"))
+		{
+			logger.info("Successfully performed search by using Special Character");
+			Assert.assertTrue(true);
+		}
+		else		
+		{
+			logger.info("Search using special charter is unsuccessful");
+			Assert.assertTrue(false);
+		}
+			
+	}
+	
+	@Test
+	public void searchResultDisplay() throws Exception
+	{
+		if(fns.resultDisplay("searchbox", "Dress"))
+		{
+			logger.info("Searched text is present in search list");
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			logger.info("Searched text is not present in search list");
+			Assert.assertTrue(false);
+		}
 	}
 }

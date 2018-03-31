@@ -3,6 +3,7 @@ package com.seleniummaven.uiActions;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Set;
@@ -119,6 +120,51 @@ public class Selenium extends TestBase
 		{
 			logger.info("Locator should not be null");
 			return "Locator is null";
+		}
+	}
+	
+	public String sendKeyAction(String locator,Keys key)
+	{
+		if(locator!=null)
+		{
+			try
+			{
+				getWebElement(locator).sendKeys(key);
+				logger.info("Performed key action");
+				return "success";
+			}
+			catch(Exception e)
+			{
+				logger.info("Element not found for the locator : "+locator);
+				return "Element not found for the locator : "+locator;
+			}
+		}
+		else
+		{
+			logger.info("Locator should not be null");
+			return "Locator should not be null";
+		}
+	}
+	
+	public String sendKeyActionWithInput(String locator, String searchText, Keys key)
+	{
+		if(locator!=null)
+		{
+			try
+			{
+				getWebElement(locator).sendKeys(searchText,key);
+				logger.info("Performed key action");
+				return "success";
+			}catch(Exception e)
+			{
+				logger.info("Element not found for the locator : "+locator);
+				return "Element not found for the locator : "+locator; 
+			}
+		}
+		else
+		{
+			logger.info("Element not found for the locator : "+locator);
+			return "Element not found for the locator : "+locator;
 		}
 	}
 	
@@ -343,7 +389,7 @@ public class Selenium extends TestBase
 					}
 			}catch(Exception e)
 			{
-				logger.info("Exception thrown : "+e.getStackTrace());
+				logger.info("Unable to find the web element : "+e.getStackTrace());
 				return null;
 			}
 		}
@@ -1105,6 +1151,59 @@ public class Selenium extends TestBase
 		}
 	}
 	
+	public String[] getList() throws Exception
+	{
+		//Auto suggesion list box control's xpath provided
+		WebElement autosuggestion = getWebElement("searchlist");
+		List<WebElement> list = autosuggestion.findElements(By.tagName("li"));
+		//List<WebElement> lt = driver.findElements(By.xpath("//*[@id='index']/div[2]")); 
+		String results[] = new String[list.size()];
+		int i=0;
+		for(WebElement we : list)
+		{
+			if(i<list.size())
+			{
+				results[i]=we.getText();
+				i++;
+			}
+			//System.out.println("value : "+results);
+		}	
+		return results;
+	}
+	
+	/*public void checkAutoSuggestion()
+	{
+		
+	}*/
+	
+/*	public String getSearchResults()
+	{
+		
+		//Sample code 
+		List<WebElement> print = driver.findElements(By.xpath("//div[@class='sbqs_c']"));
+		System.out.println(print.size());
+		for ( WebElement we: print) { 
+		    System.out.println(we.getText());
+		}
+		
+		ArrayList<WebElement> searchresults = new ArrayList<WebElement>();
+		String resultLocator;
+		WebElement we;
+		try
+		{
+			for(int i=1;i<=10;i++)
+			{
+				resultLocator=OR.getProperty("locatorBeginning")+i+OR.getProperty("locatorEnd");
+				we = getWebElement(resultLocator);
+				searchresults.add(we);
+			}
+		
+		}catch(Exception e)
+		{
+			logger.info("End of results");
+		}
+	}
+*/	
 /*	public static void main(String args[]) throws IOException
 	{
 		try{

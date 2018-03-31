@@ -3,7 +3,7 @@
     <classes>
         <class name="com.seleniummaven.search.Search" />
           <methods>
-              <include name="searchUsingSpecialChar" />
+              <include name="searchResultDisplay" />
           </methods>       
     </classes>
     </test> 
