@@ -10,6 +10,7 @@ import com.seleniummaven.testBase.*;
 public class UtilFunctions extends TestBase
 {
 	private final static Logger logger = Logger.getLogger(UtilFunctions.class);
+	
 	/** To wait for milliseconds 
 	 * @param millisec
 	 */

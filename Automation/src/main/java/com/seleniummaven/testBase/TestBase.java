@@ -42,6 +42,7 @@ public class TestBase
 	public FileInputStream file;
 	public static Config config = new Config(OR);
 	
+	
 	@BeforeClass
 	public void loadProperties() throws IOException
 	{

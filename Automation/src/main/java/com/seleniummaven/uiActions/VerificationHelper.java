@@ -50,6 +50,7 @@ public class VerificationHelper extends TestBase
 		return isDisplayed;
 	}
 	
+	
 	public static boolean verifyTextPresent(String locator, String text)
 	{
 		//Selenium selenium = new Selenium();

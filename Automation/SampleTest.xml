@@ -1,9 +1,9 @@
 <suite name="Automation">
   <test name="Test One" >
     <classes>
-        <class name="com.seleniummaven.search.Search" />
+        <class name="com.seleniummaven.search.Search"/>
           <methods>
-              <include name="searchUsingSpecialChar" />
+              <include name="searchUsingSpecialChar"/>
           </methods>       
     </classes>
     </test> 

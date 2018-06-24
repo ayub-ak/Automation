@@ -10,6 +10,7 @@ public class Config //extends TestBase
 		this.OR = OR;
 	}
 	
+	
 	public String getURL()
 	{
 		return OR.getProperty("URL");
