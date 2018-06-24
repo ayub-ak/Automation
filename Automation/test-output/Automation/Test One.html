@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 30 18:23:12 IST 2018</td>
+<td>Started on:</td><td>Sun May 27 12:03:01 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23700 ms)</td>
+<tr><td>Total time:</td><td>54 seconds (54164 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.seleniummaven.search.Search.searchResultDisplay()'><b>searchResultDisplay</b><br>Test class: com.seleniummaven.search.Search</td>
-<td><div><pre>junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.seleniummaven.search.Search.searchResultDisplay(Search.java:147)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace201719260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace201719260'><pre>junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.seleniummaven.search.Search.searchResultDisplay(Search.java:147)
+<td><div><pre>java.lang.NullPointerException
+	at com.seleniummaven.uiActions.Selenium.getList(Selenium.java:1158)
+	at com.seleniummaven.appFunctions.AppSpecificFns.resultDisplay(AppSpecificFns.java:74)
+	at com.seleniummaven.search.Search.searchResultDisplay(Search.java:139)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace352083716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace352083716'><pre>java.lang.NullPointerException
+	at com.seleniummaven.uiActions.Selenium.getList(Selenium.java:1158)
+	at com.seleniummaven.appFunctions.AppSpecificFns.resultDisplay(AppSpecificFns.java:74)
+	at com.seleniummaven.search.Search.searchResultDisplay(Search.java:139)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,7 +111,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
-<td>16</td>
+<td>36</td>
 <td>com.seleniummaven.search.Search@335eadca</td></tr>
 </table><p>
 </body>

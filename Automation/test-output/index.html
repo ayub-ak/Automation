@@ -128,11 +128,10 @@
                   <a name="searchResultDisplay">
                   </a> <!-- searchResultDisplay -->
                   <span class="method-name">searchResultDisplay</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.seleniummaven.search.Search.searchResultDisplay(Search.java:147)
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.seleniummaven.uiActions.Selenium.getList(Selenium.java:1158)
+	at com.seleniummaven.appFunctions.AppSpecificFns.resultDisplay(AppSpecificFns.java:74)
+	at com.seleniummaven.search.Search.searchResultDisplay(Search.java:139)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -199,12 +198,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchResultDisplay')
 data.setCell(0, 2, 'com.seleniummaven.search.Search')
-data.setCell(0, 3, 16006);
+data.setCell(0, 3, 36310);
 window.suiteTableData['Automation']= { tableData: data, tableDiv: 'times-div-Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Automation">
               </div> <!-- times-div-Automation -->
             </div> <!-- times-div -->
@@ -252,17 +251,17 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">browserLaunch</span>
-                <span class="method-start">6745 ms</span>
+                <span class="method-start">17550 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">searchResultDisplay</span>
-                <span class="method-start">7681 ms</span>
+                <span class="method-start">17834 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">23690 ms</span>
+                <span class="method-start">54151 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
