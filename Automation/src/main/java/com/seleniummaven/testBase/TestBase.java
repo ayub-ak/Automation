@@ -67,9 +67,19 @@ public class TestBase
 		{
 			if(browser.equalsIgnoreCase("firefox"))
 			{
-				System.setProperty("webdriver.gecko.driver", config.getFirefoxDriver());
-				driver = new FirefoxDriver();
-				logger.info("Launching Firefox browser");
+				if(System.getProperty("os.name").contains("Windows 7"))
+				{
+					System.setProperty("webdriver.gecko.driver", config.getFirefoxDriver32Bit());
+					driver = new FirefoxDriver();
+					logger.info("Launching Firefox browser with 32 bit version");
+				}
+				else
+				{
+					System.setProperty("webdriver.gecko.driver", config.getFirefoxDriver());
+					driver = new FirefoxDriver();
+					logger.info("Launching Firefox browser");
+				}
+				
 				//driver.get("http://automationpractice.com/index.php");
 				//driver.manage().window().maximize();
 			}

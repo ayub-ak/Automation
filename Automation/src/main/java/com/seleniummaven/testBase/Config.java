@@ -20,6 +20,11 @@ public class Config //extends TestBase
 		return System.getProperty("user.dir")+OR.getProperty("ffdriverpartialpath");
 	}
 	
+	public String getFirefoxDriver32Bit()
+	{
+		return System.getProperty("user.dir")+OR.getProperty("ffdriver32Bitpartialpath");
+	}
+	
 	public String getChromeDriver()
 	{
 		return System.getProperty("user.dir")+OR.getProperty("chromedriverpartialpath");
