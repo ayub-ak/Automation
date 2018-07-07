@@ -5,10 +5,8 @@
     <classes>
       <class name="com.seleniummaven.search.Search">
         <methods>
-          <include name="searchResultDisplay"/>
           <include name="loadProperties"/>
-          <include name="tearUp"/>
-          <include name="browserLaunch"/>
+          <include name="searchUsingSpecialChar"/>
         </methods>
       </class> <!-- com.seleniummaven.search.Search -->
     </classes>

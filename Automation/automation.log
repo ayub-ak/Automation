@@ -992,3 +992,53 @@
 2018-06-18 20:10:37 INFO  Selenium:58 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
 2018-06-18 20:10:37 INFO  Selenium:617 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
 2018-06-18 20:10:37 INFO  Search:125 - Successfully performed search by using Special Character
+2018-06-24 14:36:49 INFO  TestBase:106 - Execution starts
+2018-06-24 14:36:49 INFO  TestBase:112 - Loading config.properties
+2018-06-24 14:36:49 INFO  TestBase:118 - Loading objectrepository.properties
+2018-06-24 14:36:49 INFO  TestBase:50 - Loading the properties
+2018-06-24 14:37:39 INFO  TestBase:106 - Execution starts
+2018-06-24 14:37:39 INFO  TestBase:112 - Loading config.properties
+2018-06-24 14:37:39 INFO  TestBase:118 - Loading objectrepository.properties
+2018-06-24 14:37:39 INFO  TestBase:50 - Loading the properties
+2018-06-24 14:46:09 INFO  TestBase:106 - Execution starts
+2018-06-24 14:46:09 INFO  TestBase:112 - Loading config.properties
+2018-06-24 14:46:09 INFO  TestBase:118 - Loading objectrepository.properties
+2018-06-24 14:46:09 INFO  TestBase:50 - Loading the properties
+2018-06-24 16:49:59 INFO  TestBase:116 - Execution starts
+2018-06-24 16:49:59 INFO  TestBase:122 - Loading config.properties
+2018-06-24 16:49:59 INFO  TestBase:128 - Loading objectrepository.properties
+2018-06-24 16:49:59 INFO  TestBase:50 - Loading the properties
+2018-06-30 07:34:32 INFO  TestBase:116 - Execution starts
+2018-06-30 07:34:32 INFO  TestBase:122 - Loading config.properties
+2018-06-30 07:34:32 INFO  TestBase:128 - Loading objectrepository.properties
+2018-06-30 07:34:32 INFO  TestBase:50 - Loading the properties
+2018-06-30 08:43:45 INFO  TestBase:116 - Execution starts
+2018-06-30 08:43:45 INFO  TestBase:122 - Loading config.properties
+2018-06-30 08:43:45 INFO  TestBase:128 - Loading objectrepository.properties
+2018-06-30 08:43:45 INFO  TestBase:50 - Loading the properties
+2018-06-30 08:53:29 INFO  TestBase:116 - Execution starts
+2018-06-30 08:53:29 INFO  TestBase:122 - Loading config.properties
+2018-06-30 08:53:29 INFO  TestBase:128 - Loading objectrepository.properties
+2018-06-30 08:53:29 INFO  TestBase:50 - Loading the properties
+2018-06-30 08:53:50 INFO  TestBase:116 - Execution starts
+2018-06-30 08:53:50 INFO  TestBase:122 - Loading config.properties
+2018-06-30 08:53:50 INFO  TestBase:128 - Loading objectrepository.properties
+2018-06-30 08:53:50 INFO  TestBase:50 - Loading the properties
+2018-06-30 08:54:47 INFO  TestBase:116 - Execution starts
+2018-06-30 08:56:08 INFO  TestBase:122 - Loading config.properties
+2018-06-30 08:56:39 INFO  TestBase:128 - Loading objectrepository.properties
+2018-06-30 08:56:46 INFO  TestBase:50 - Loading the properties
+2018-06-30 09:11:16 INFO  TestBase:116 - Execution starts
+2018-06-30 09:11:16 INFO  TestBase:122 - Loading config.properties
+2018-06-30 09:11:16 INFO  TestBase:128 - Loading objectrepository.properties
+2018-06-30 09:11:16 INFO  TestBase:50 - Loading the properties
+2018-06-30 09:11:28 INFO  TestBase:74 - Launching Firefox browser with 32 bit version
+2018-06-30 09:11:29 INFO  Selenium:332 - Implicit wait is called
+2018-06-30 09:11:29 INFO  Selenium:348 - Setting page loading timeout
+2018-06-30 09:11:37 INFO  Selenium:203 - Navigating to http://automationpractice.com/index.php
+2018-06-30 09:11:38 INFO  Selenium:111 - Typed Faded Short Sleeve T-shirts text
+2018-06-30 09:11:38 INFO  AppSpecificFns:59 - Searching for Faded Short Sleeve T-shirts
+2018-06-30 09:11:40 INFO  Selenium:84 - WebElement for the locator is clicked
+2018-06-30 09:11:40 INFO  Selenium:58 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-06-30 09:11:40 INFO  Selenium:617 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-06-30 09:11:40 INFO  Search:125 - Successfully performed search by using Special Character
