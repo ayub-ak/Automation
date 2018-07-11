@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Automation]">
-  <test name="Test One(failed)">
+  <test name="Regression(failed)">
     <classes>
       <class name="com.seleniummaven.search.Search">
         <methods>
+          <include name="searchResultDisplay"/>
           <include name="loadProperties"/>
-          <include name="searchUsingSpecialChar"/>
+          <include name="tearUp"/>
+          <include name="browserLaunch"/>
         </methods>
       </class> <!-- com.seleniummaven.search.Search -->
     </classes>
-  </test> <!-- Test One(failed) -->
+  </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [Automation] -->

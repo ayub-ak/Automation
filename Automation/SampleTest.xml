@@ -1,4 +1,14 @@
 <suite name="Automation">
+    <test name="Regression">
+        <classes>
+            <class name="com.seleniummaven.search.Search">
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+<!-- <suite name="Automation">
   <test name="Test One" >
     <classes>
         <class name="com.seleniummaven.search.Search"/>
@@ -8,3 +18,4 @@
     </classes>
     </test> 
 </suite>
+ -->

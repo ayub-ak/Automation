@@ -49,7 +49,7 @@ public class TestBase
 		//testbase = new TestBase();
 		loadPropertiesFile();
 		logger.info("Loading the properties");
-		getBrowser("firefox"); //Hardcoding needs to be removed
+		getBrowser("chrome"); //Hardcoding needs to be removed
 		//selenium = new Selenium();
 		//fns = new AppSpecificFns();
 		//config = new Config(OR);

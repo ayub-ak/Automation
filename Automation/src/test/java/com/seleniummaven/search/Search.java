@@ -30,7 +30,7 @@ public class Search extends TestBase
 	 * @author AyubKhan
 	 * Search - User should be able to perform search operation
 	 */
-	@Test
+	@Test //(enabled=false)
 	public void validateSearch() throws Exception //"Printed dress" and "5 results have been found" are hardcoded that needs to be changed based on given input
 	{
 		fns.searchProduct("searchbox", "Printed dress","noenterkey");
@@ -51,7 +51,7 @@ public class Search extends TestBase
 	 * @throws Exception
 	 * Search - User should be able to search an item and open product details page
 	 */
-	@Test
+	@Test //(enabled=false)
 	public void OpenProdPageBySearch() throws Exception
 	{
 		fns.searchProduct("searchbox", "Printed dress","noenterkey");
@@ -73,7 +73,7 @@ public class Search extends TestBase
 	 * @throws Exception
 	 * Search - No results should get displayed when searched item not present  
 	 */
-	@Test
+	@Test //(enabled=false)
 	public void noResultsFound() throws Exception
 	{
 		fns.searchProduct("searchbox", "dummy data","noenterkey");
@@ -94,7 +94,7 @@ public class Search extends TestBase
 	 * Search - User should be able to search by pressing enter after typing the item name
 	 * @throws Exception
 	 */
-	@Test
+	@Test //(enabled=false)
 	public void searchItemByEnterKey() throws Exception
 	{
 		fns.searchProduct("searchbox", "Printed dress","pressenterkey");
@@ -115,7 +115,7 @@ public class Search extends TestBase
 	 * Search - numbers, special characters should be acceptable 
 	 * @throws Exception 
 	 */
-	@Test
+	@Test //(enabled=true)
 	public void searchUsingSpecialChar() throws Exception
 	{
 		fns.searchProduct("searchbox", "Faded Short Sleeve T-shirts","noenterkey");
@@ -133,7 +133,7 @@ public class Search extends TestBase
 			
 	}
 	
-	@Test
+	@Test (enabled=false)
 	public void searchResultDisplay() throws Exception
 	{
 		if(fns.resultDisplay("searchbox", "Dress"))

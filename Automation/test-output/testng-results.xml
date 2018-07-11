@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation" duration-ms="24357" started-at="2018-06-30T03:41:16Z" finished-at="2018-06-30T03:41:40Z">
+  <suite name="Default suite" duration-ms="27344" started-at="2018-07-11T16:04:28Z" finished-at="2018-07-11T16:04:55Z">
     <groups>
     </groups>
-    <test name="Test One" duration-ms="24357" started-at="2018-06-30T03:41:16Z" finished-at="2018-06-30T03:41:40Z">
+    <test name="Default test" duration-ms="27344" started-at="2018-07-11T16:04:28Z" finished-at="2018-07-11T16:04:55Z">
       <class name="com.seleniummaven.search.Search">
-        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.seleniummaven.search.Search@10366b4]" name="loadProperties" is-config="true" duration-ms="12665" started-at="2018-06-30T09:11:16Z" finished-at="2018-06-30T09:11:28Z">
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.seleniummaven.search.Search@6f1fba17]" name="loadProperties" is-config="true" duration-ms="5800" started-at="2018-07-11T21:34:28Z" finished-at="2018-07-11T21:34:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadProperties -->
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:com.seleniummaven.search.Search@10366b4]" name="browserLaunch" is-config="true" duration-ms="138" started-at="2018-06-30T09:11:28Z" finished-at="2018-06-30T09:11:29Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:com.seleniummaven.search.Search@6f1fba17]" name="browserLaunch" is-config="true" duration-ms="9" started-at="2018-07-11T21:34:34Z" finished-at="2018-07-11T21:34:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="searchUsingSpecialChar()[pri:0, instance:com.seleniummaven.search.Search@10366b4]" name="searchUsingSpecialChar" duration-ms="11483" started-at="2018-06-30T09:11:29Z" finished-at="2018-06-30T09:11:40Z">
+        <test-method status="PASS" signature="searchUsingSpecialChar()[pri:0, instance:com.seleniummaven.search.Search@6f1fba17]" name="searchUsingSpecialChar" duration-ms="21507" started-at="2018-07-11T21:34:34Z" finished-at="2018-07-11T21:34:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchUsingSpecialChar -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.seleniummaven.search.Search@10366b4]" name="tearUp" is-config="true" duration-ms="0" started-at="2018-06-30T09:11:40Z" finished-at="2018-06-30T09:11:40Z">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.seleniummaven.search.Search@6f1fba17]" name="tearUp" is-config="true" duration-ms="1" started-at="2018-07-11T21:34:55Z" finished-at="2018-07-11T21:34:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
       </class> <!-- com.seleniummaven.search.Search -->
-    </test> <!-- Test One -->
-  </suite> <!-- Automation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
