@@ -49,7 +49,8 @@ public class TestBase
 		//testbase = new TestBase();
 		loadPropertiesFile();
 		logger.info("Loading the properties");
-		getBrowser("chrome"); //Hardcoding needs to be removed
+		getBrowser(config.getBrowser());
+		//getBrowser("chrome"); //Hardcoding needs to be removed
 		//selenium = new Selenium();
 		//fns = new AppSpecificFns();
 		//config = new Config(OR);
@@ -86,8 +87,20 @@ public class TestBase
 			}
 			else if (browser.equalsIgnoreCase("chrome"))
 			{
+				//To set chrome options to run the scripts using Jenkins
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("enable-automation");
+				//options.addArguments("--headless");
+				//options.addArguments("--window-size=1920,1080");
+				options.addArguments("--no-sandbox");
+				//options.addArguments("--disable-extensions");
+				//options.addArguments("--dns-prefetch-disable");
+				//options.addArguments("--disable-gpu");
+				options.addArguments("--disable-browser-side-navigation");
+				//options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+				
 				System.setProperty("webdriver.chrome.driver", config.getChromeDriver());
-				driver = new ChromeDriver();
+				driver = new ChromeDriver(options);
 				logger.info("Launching Chrome browser");
 				driver.manage().window().maximize();
 			}

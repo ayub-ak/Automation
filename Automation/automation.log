@@ -1106,3 +1106,1054 @@
 2018-07-11 21:34:55 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
 2018-07-11 21:34:55 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
 2018-07-11 21:34:55 INFO  Search:125 - Successfully performed search by using Special Character
+2018-12-09 08:57:22 INFO  TestBase:117 - Execution starts
+2018-12-09 08:57:22 INFO  TestBase:123 - Loading config.properties
+2018-12-09 08:57:22 INFO  TestBase:129 - Loading objectrepository.properties
+2018-12-09 08:57:22 INFO  TestBase:51 - Loading the properties
+2018-12-09 08:57:28 INFO  TestBase:91 - Launching Chrome browser
+2018-12-09 08:57:30 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 08:57:30 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 08:57:39 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 08:57:39 INFO  Selenium:112 - Typed Printed dress text
+2018-12-09 08:57:39 INFO  AppSpecificFns:60 - Searching for Printed dress
+2018-12-09 08:57:41 INFO  Selenium:85 - WebElement for the locator is clicked
+2018-12-09 08:57:44 INFO  Selenium:85 - WebElement for the locator is clicked
+2018-12-09 08:57:44 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2018-12-09 08:57:44 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2018-12-09 08:57:44 INFO  Search:62 - Able to Search and Open Product details Page
+2018-12-09 08:57:44 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 08:57:44 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 08:57:47 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 08:57:47 INFO  Selenium:112 - Typed dummy data text
+2018-12-09 08:57:47 INFO  AppSpecificFns:60 - Searching for dummy data
+2018-12-09 08:57:49 INFO  Selenium:85 - WebElement for the locator is clicked
+2018-12-09 08:57:49 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2018-12-09 08:57:49 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2018-12-09 08:57:50 INFO  Search:83 - No Results found
+2018-12-09 08:57:50 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 08:57:50 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 08:57:52 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 08:57:53 INFO  Selenium:112 - Typed Printed dress text
+2018-12-09 08:57:53 INFO  AppSpecificFns:60 - Searching for Printed dress
+2018-12-09 08:57:55 INFO  Selenium:179 - Enter key pressed
+2018-12-09 08:57:55 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2018-12-09 08:57:55 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-12-09 08:57:56 INFO  Search:104 - Result displayed
+2018-12-09 08:57:56 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 08:57:56 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 08:57:58 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 08:57:59 INFO  Selenium:112 - Typed Dress text
+2018-12-09 08:57:59 INFO  AppSpecificFns:74 - Searching for Dress
+2018-12-09 08:58:00 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2018-12-09 08:58:00 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2018-12-09 08:58:00 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2018-12-09 08:58:00 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2018-12-09 08:58:00 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2018-12-09 08:58:00 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : T-shirts > Faded Short Sleeve T-shirts
+2018-12-09 08:58:00 INFO  Search:146 - Searched text is not present in search list
+2018-12-09 08:58:00 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 08:58:00 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 08:58:02 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 08:58:03 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2018-12-09 08:58:03 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2018-12-09 08:58:05 INFO  Selenium:85 - WebElement for the locator is clicked
+2018-12-09 08:58:05 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-12-09 08:58:05 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-12-09 08:58:06 INFO  Search:125 - Successfully performed search by using Special Character
+2018-12-09 08:58:06 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 08:58:06 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 08:58:08 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 08:58:09 INFO  Selenium:112 - Typed Printed dress text
+2018-12-09 08:58:09 INFO  AppSpecificFns:60 - Searching for Printed dress
+2018-12-09 08:58:11 INFO  Selenium:85 - WebElement for the locator is clicked
+2018-12-09 08:58:11 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2018-12-09 08:58:11 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-12-09 08:58:11 INFO  Search:40 - Search successful
+2018-12-09 09:17:19 INFO  TestBase:117 - Execution starts
+2018-12-09 09:17:19 INFO  TestBase:123 - Loading config.properties
+2018-12-09 09:17:19 INFO  TestBase:129 - Loading objectrepository.properties
+2018-12-09 09:17:19 INFO  TestBase:51 - Loading the properties
+2018-12-09 09:17:22 INFO  TestBase:91 - Launching Chrome browser
+2018-12-09 09:17:23 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 09:17:23 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 09:17:32 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 09:17:32 INFO  Selenium:112 - Typed Printed dress text
+2018-12-09 09:17:32 INFO  AppSpecificFns:60 - Searching for Printed dress
+2018-12-09 09:17:35 INFO  Selenium:85 - WebElement for the locator is clicked
+2018-12-09 09:17:37 INFO  Selenium:85 - WebElement for the locator is clicked
+2018-12-09 09:17:37 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2018-12-09 09:17:37 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2018-12-09 09:17:37 INFO  Search:62 - Able to Search and Open Product details Page
+2018-12-09 09:17:37 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 09:17:37 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 09:17:39 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 09:17:40 INFO  Selenium:112 - Typed dummy data text
+2018-12-09 09:17:40 INFO  AppSpecificFns:60 - Searching for dummy data
+2018-12-09 09:17:42 INFO  Selenium:85 - WebElement for the locator is clicked
+2018-12-09 09:17:42 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2018-12-09 09:17:42 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2018-12-09 09:17:42 INFO  Search:83 - No Results found
+2018-12-09 09:17:42 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 09:17:42 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 09:17:45 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 09:17:46 INFO  Selenium:112 - Typed Printed dress text
+2018-12-09 09:17:46 INFO  AppSpecificFns:60 - Searching for Printed dress
+2018-12-09 09:17:48 INFO  Selenium:179 - Enter key pressed
+2018-12-09 09:17:48 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2018-12-09 09:17:48 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-12-09 09:17:49 INFO  Search:104 - Result displayed
+2018-12-09 09:17:49 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 09:17:49 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 09:17:51 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 09:17:52 INFO  Selenium:112 - Typed Dress text
+2018-12-09 09:17:52 INFO  AppSpecificFns:74 - Searching for Dress
+2018-12-09 09:17:53 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2018-12-09 09:17:53 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2018-12-09 09:17:53 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2018-12-09 09:17:53 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2018-12-09 09:17:53 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2018-12-09 09:17:53 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : T-shirts > Faded Short Sleeve T-shirts
+2018-12-09 09:17:53 INFO  Search:146 - Searched text is not present in search list
+2018-12-09 09:17:53 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 09:17:53 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 09:17:55 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 09:17:56 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2018-12-09 09:17:56 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2018-12-09 09:17:58 INFO  Selenium:85 - WebElement for the locator is clicked
+2018-12-09 09:17:58 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-12-09 09:17:58 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2018-12-09 09:17:59 INFO  Search:125 - Successfully performed search by using Special Character
+2018-12-09 09:17:59 INFO  Selenium:333 - Implicit wait is called
+2018-12-09 09:17:59 INFO  Selenium:349 - Setting page loading timeout
+2018-12-09 09:18:01 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2018-12-09 09:18:02 INFO  Selenium:112 - Typed Printed dress text
+2018-12-09 09:18:02 INFO  AppSpecificFns:60 - Searching for Printed dress
+2018-12-09 09:18:04 INFO  Selenium:85 - WebElement for the locator is clicked
+2018-12-09 09:18:04 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2018-12-09 09:18:04 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2018-12-09 09:18:04 INFO  Search:40 - Search successful
+2019-01-20 10:24:08 INFO  TestBase:117 - Execution starts
+2019-01-20 10:24:08 INFO  TestBase:123 - Loading config.properties
+2019-01-20 10:24:08 INFO  TestBase:129 - Loading objectrepository.properties
+2019-01-20 10:24:08 INFO  TestBase:51 - Loading the properties
+2019-01-20 10:24:16 INFO  TestBase:91 - Launching Chrome browser
+2019-01-20 10:24:17 INFO  Selenium:333 - Implicit wait is called
+2019-01-20 10:24:17 INFO  Selenium:349 - Setting page loading timeout
+2019-01-20 10:24:25 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-01-20 10:24:26 INFO  Selenium:112 - Typed Printed dress text
+2019-01-20 10:24:26 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-01-20 10:24:28 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-01-20 10:24:30 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-01-20 10:24:31 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-01-20 10:24:31 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-01-20 10:24:31 INFO  Search:62 - Able to Search and Open Product details Page
+2019-01-20 10:24:31 INFO  Selenium:333 - Implicit wait is called
+2019-01-20 10:24:31 INFO  Selenium:349 - Setting page loading timeout
+2019-01-20 10:24:33 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-01-20 10:24:34 INFO  Selenium:112 - Typed dummy data text
+2019-01-20 10:24:34 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-01-20 10:24:35 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-01-20 10:24:35 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-01-20 10:24:35 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-01-20 10:24:35 INFO  Search:83 - No Results found
+2019-01-20 10:24:35 INFO  Selenium:333 - Implicit wait is called
+2019-01-20 10:24:35 INFO  Selenium:349 - Setting page loading timeout
+2019-01-20 10:24:38 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-01-20 10:24:38 INFO  Selenium:112 - Typed Printed dress text
+2019-01-20 10:24:38 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-01-20 10:24:40 INFO  Selenium:179 - Enter key pressed
+2019-01-20 10:24:40 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-01-20 10:24:40 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-01-20 10:24:40 INFO  Search:104 - Result displayed
+2019-01-20 10:24:40 INFO  Selenium:333 - Implicit wait is called
+2019-01-20 10:24:41 INFO  Selenium:349 - Setting page loading timeout
+2019-01-20 10:24:43 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-01-20 10:24:43 INFO  Selenium:112 - Typed Dress text
+2019-01-20 10:24:43 INFO  AppSpecificFns:74 - Searching for Dress
+2019-01-20 10:24:45 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-01-20 10:24:45 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2019-01-20 10:24:45 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-01-20 10:24:45 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2019-01-20 10:24:45 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2019-01-20 10:24:45 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : T-shirts > Faded Short Sleeve T-shirts
+2019-01-20 10:24:45 INFO  Search:146 - Searched text is not present in search list
+2019-01-20 10:24:45 INFO  Selenium:333 - Implicit wait is called
+2019-01-20 10:24:45 INFO  Selenium:349 - Setting page loading timeout
+2019-01-20 10:24:48 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-01-20 10:24:48 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-01-20 10:24:48 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-01-20 10:24:50 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-01-20 10:24:50 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-01-20 10:24:50 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-01-20 10:24:50 INFO  Search:125 - Successfully performed search by using Special Character
+2019-01-20 10:24:50 INFO  Selenium:333 - Implicit wait is called
+2019-01-20 10:24:50 INFO  Selenium:349 - Setting page loading timeout
+2019-01-20 10:24:53 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-01-20 10:24:53 INFO  Selenium:112 - Typed Printed dress text
+2019-01-20 10:24:53 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-01-20 10:24:55 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-01-20 10:24:55 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-01-20 10:24:55 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-01-20 10:24:55 INFO  Search:40 - Search successful
+2019-04-06 16:43:08 INFO  TestBase:117 - Execution starts
+2019-04-06 16:43:08 INFO  TestBase:123 - Loading config.properties
+2019-04-06 16:43:08 INFO  TestBase:129 - Loading objectrepository.properties
+2019-04-06 16:43:08 INFO  TestBase:51 - Loading the properties
+2019-04-06 16:43:26 INFO  TestBase:91 - Launching Chrome browser
+2019-04-06 16:43:28 INFO  Selenium:333 - Implicit wait is called
+2019-04-06 16:43:28 INFO  Selenium:349 - Setting page loading timeout
+2019-04-06 16:43:41 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-06 16:43:41 INFO  Selenium:112 - Typed Printed dress text
+2019-04-06 16:43:41 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-06 16:43:47 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-06 16:43:52 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-06 16:43:52 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-06 16:43:52 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-06 16:43:53 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-06 16:43:53 INFO  Selenium:333 - Implicit wait is called
+2019-04-06 16:43:53 INFO  Selenium:349 - Setting page loading timeout
+2019-04-06 16:43:57 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-06 16:43:57 INFO  Selenium:112 - Typed dummy data text
+2019-04-06 16:43:57 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-06 16:43:59 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-06 16:43:59 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-06 16:43:59 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-06 16:43:59 INFO  Search:83 - No Results found
+2019-04-06 16:43:59 INFO  Selenium:333 - Implicit wait is called
+2019-04-06 16:43:59 INFO  Selenium:349 - Setting page loading timeout
+2019-04-06 16:44:03 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-06 16:44:03 INFO  Selenium:112 - Typed Printed dress text
+2019-04-06 16:44:03 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-06 16:44:12 INFO  Selenium:179 - Enter key pressed
+2019-04-06 16:44:12 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-06 16:44:12 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-06 16:44:12 INFO  Search:104 - Result displayed
+2019-04-06 16:44:12 INFO  Selenium:333 - Implicit wait is called
+2019-04-06 16:44:12 INFO  Selenium:349 - Setting page loading timeout
+2019-04-06 16:44:16 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-06 16:44:16 INFO  Selenium:112 - Typed Dress text
+2019-04-06 16:44:16 INFO  AppSpecificFns:74 - Searching for Dress
+2019-04-06 16:44:18 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-06 16:44:18 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2019-04-06 16:44:18 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-06 16:44:18 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2019-04-06 16:44:18 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2019-04-06 16:44:18 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : Blouses > Blouse
+2019-04-06 16:44:18 INFO  Search:146 - Searched text is not present in search list
+2019-04-06 16:44:18 INFO  Selenium:333 - Implicit wait is called
+2019-04-06 16:44:18 INFO  Selenium:349 - Setting page loading timeout
+2019-04-06 16:44:24 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-06 16:44:25 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-06 16:44:25 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-06 16:44:36 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-06 16:44:36 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-06 16:44:36 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-06 16:44:36 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-06 16:44:36 INFO  Selenium:333 - Implicit wait is called
+2019-04-06 16:44:36 INFO  Selenium:349 - Setting page loading timeout
+2019-04-06 16:44:40 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-06 16:44:40 INFO  Selenium:112 - Typed Printed dress text
+2019-04-06 16:44:40 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-06 16:44:42 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-06 16:44:42 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-06 16:44:42 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-06 16:44:42 INFO  Search:40 - Search successful
+2019-04-06 16:59:58 INFO  TestBase:117 - Execution starts
+2019-04-06 16:59:58 INFO  TestBase:123 - Loading config.properties
+2019-04-06 16:59:58 INFO  TestBase:129 - Loading objectrepository.properties
+2019-04-06 16:59:58 INFO  TestBase:51 - Loading the properties
+2019-04-06 17:00:05 INFO  TestBase:91 - Launching Chrome browser
+2019-04-07 18:34:55 INFO  TestBase:117 - Execution starts
+2019-04-07 18:34:55 INFO  TestBase:123 - Loading config.properties
+2019-04-07 18:34:55 INFO  TestBase:129 - Loading objectrepository.properties
+2019-04-07 18:34:55 INFO  TestBase:51 - Loading the properties
+2019-04-07 18:35:03 INFO  TestBase:91 - Launching Chrome browser
+2019-04-13 16:04:48 INFO  TestBase:117 - Execution starts
+2019-04-13 16:04:48 INFO  TestBase:123 - Loading config.properties
+2019-04-13 16:04:48 INFO  TestBase:129 - Loading objectrepository.properties
+2019-04-13 16:04:48 INFO  TestBase:51 - Loading the properties
+2019-04-13 16:27:50 INFO  TestBase:128 - Execution starts
+2019-04-13 16:27:50 INFO  TestBase:134 - Loading config.properties
+2019-04-13 16:27:50 INFO  TestBase:140 - Loading objectrepository.properties
+2019-04-13 16:27:50 INFO  TestBase:51 - Loading the properties
+2019-04-13 16:27:55 INFO  TestBase:102 - Launching Chrome browser
+2019-04-13 16:27:56 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:27:56 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:28:09 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:28:10 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:28:10 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:28:12 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:28:15 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:28:15 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:28:15 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:28:15 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-13 16:28:15 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:28:15 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:28:17 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:28:18 INFO  Selenium:112 - Typed dummy data text
+2019-04-13 16:28:18 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-13 16:28:20 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:28:20 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-13 16:28:20 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-13 16:28:20 INFO  Search:83 - No Results found
+2019-04-13 16:28:20 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:28:20 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:28:22 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:28:22 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:28:22 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:28:25 INFO  Selenium:179 - Enter key pressed
+2019-04-13 16:28:25 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 16:28:25 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 16:28:25 INFO  Search:104 - Result displayed
+2019-04-13 16:28:25 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:28:25 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:28:27 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:28:27 INFO  Selenium:112 - Typed Dress text
+2019-04-13 16:28:27 INFO  AppSpecificFns:74 - Searching for Dress
+2019-04-13 16:28:29 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 16:28:29 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2019-04-13 16:28:29 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 16:28:29 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2019-04-13 16:28:29 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2019-04-13 16:28:29 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : T-shirts > Faded Short Sleeve T-shirts
+2019-04-13 16:28:29 INFO  Search:146 - Searched text is not present in search list
+2019-04-13 16:28:29 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:28:29 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:28:32 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:28:32 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-13 16:28:32 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-13 16:28:34 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:28:34 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 16:28:34 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 16:28:34 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-13 16:28:34 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:28:34 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:28:36 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:28:36 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:28:36 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:28:40 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:28:40 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 16:28:40 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 16:28:40 INFO  Search:40 - Search successful
+2019-04-13 16:31:44 INFO  TestBase:128 - Execution starts
+2019-04-13 16:31:44 INFO  TestBase:134 - Loading config.properties
+2019-04-13 16:31:44 INFO  TestBase:140 - Loading objectrepository.properties
+2019-04-13 16:31:44 INFO  TestBase:51 - Loading the properties
+2019-04-13 16:31:49 INFO  TestBase:102 - Launching Chrome browser
+2019-04-13 16:31:51 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:31:51 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:32:04 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:32:04 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:32:04 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:32:06 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:32:09 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:32:09 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:32:09 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:32:09 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-13 16:32:10 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:32:10 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:32:13 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:32:14 INFO  Selenium:112 - Typed dummy data text
+2019-04-13 16:32:14 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-13 16:32:16 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:32:16 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-13 16:32:16 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-13 16:32:16 INFO  Search:83 - No Results found
+2019-04-13 16:32:16 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:32:16 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:32:19 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:32:19 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:32:19 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:32:21 INFO  Selenium:179 - Enter key pressed
+2019-04-13 16:32:21 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 16:32:21 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 16:32:21 INFO  Search:104 - Result displayed
+2019-04-13 16:32:21 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:32:21 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:32:24 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:32:24 INFO  Selenium:112 - Typed Dress text
+2019-04-13 16:32:24 INFO  AppSpecificFns:74 - Searching for Dress
+2019-04-13 16:32:26 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 16:32:26 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2019-04-13 16:32:26 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 16:32:26 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2019-04-13 16:32:26 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2019-04-13 16:32:26 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : T-shirts > Faded Short Sleeve T-shirts
+2019-04-13 16:32:26 INFO  Search:146 - Searched text is not present in search list
+2019-04-13 16:32:26 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:32:26 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:32:29 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:32:29 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-13 16:32:29 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-13 16:32:31 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:32:31 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 16:32:31 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 16:32:31 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-13 16:32:31 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:32:31 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:32:34 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:32:35 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:32:35 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:32:37 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:32:37 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 16:32:37 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 16:32:37 INFO  Search:40 - Search successful
+2019-04-13 16:41:21 INFO  TestBase:128 - Execution starts
+2019-04-13 16:41:21 INFO  TestBase:134 - Loading config.properties
+2019-04-13 16:41:21 INFO  TestBase:140 - Loading objectrepository.properties
+2019-04-13 16:41:21 INFO  TestBase:51 - Loading the properties
+2019-04-13 16:41:26 INFO  TestBase:102 - Launching Chrome browser
+2019-04-13 16:41:27 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:41:27 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:41:32 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:41:32 INFO  Selenium:393 - Unable to find the web element : [Ljava.lang.StackTraceElement;@60bd273d
+2019-04-13 16:41:32 INFO  Selenium:116 - Element not found for the locator : searchbox
+2019-04-13 16:41:32 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:41:32 INFO  Selenium:393 - Unable to find the web element : [Ljava.lang.StackTraceElement;@5e600dd5
+2019-04-13 16:41:32 INFO  Selenium:393 - Unable to find the web element : [Ljava.lang.StackTraceElement;@576d5deb
+2019-04-13 16:41:32 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:41:32 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:41:47 INFO  Selenium:629 - Exception thrown : [Ljava.lang.StackTraceElement;@7526515b
+2019-04-13 16:41:47 INFO  Search:67 - Search an item and open product details page is failed
+2019-04-13 16:41:47 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:41:47 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:41:47 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:41:47 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:41:47 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:41:47 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:41:47 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:41:47 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:41:47 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:41:47 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:41:54 INFO  TestBase:128 - Execution starts
+2019-04-13 16:41:54 INFO  TestBase:134 - Loading config.properties
+2019-04-13 16:41:54 INFO  TestBase:140 - Loading objectrepository.properties
+2019-04-13 16:41:54 INFO  TestBase:51 - Loading the properties
+2019-04-13 16:41:57 INFO  TestBase:102 - Launching Chrome browser
+2019-04-13 16:41:59 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:41:59 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:42:12 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:42:12 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:42:12 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:42:18 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:42:22 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:42:22 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:42:22 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:42:22 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-13 16:42:22 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:42:22 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:42:28 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:42:28 INFO  Selenium:112 - Typed dummy data text
+2019-04-13 16:42:28 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-13 16:42:30 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:42:30 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-13 16:42:30 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-13 16:42:30 INFO  Search:83 - No Results found
+2019-04-13 16:42:30 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:42:30 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:42:33 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:42:33 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:42:33 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:42:37 INFO  Selenium:179 - Enter key pressed
+2019-04-13 16:42:37 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 16:42:37 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 16:42:37 INFO  Search:104 - Result displayed
+2019-04-13 16:42:37 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:42:37 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:42:43 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:42:43 INFO  Selenium:112 - Typed Dress text
+2019-04-13 16:42:43 INFO  AppSpecificFns:74 - Searching for Dress
+2019-04-13 16:42:46 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 16:42:46 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2019-04-13 16:42:46 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 16:42:46 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2019-04-13 16:42:46 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2019-04-13 16:42:46 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : T-shirts > Faded Short Sleeve T-shirts
+2019-04-13 16:42:46 INFO  Search:146 - Searched text is not present in search list
+2019-04-13 16:42:46 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:42:46 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:42:48 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:42:48 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-13 16:42:48 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-13 16:42:51 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:42:51 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 16:42:51 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 16:42:51 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-13 16:42:51 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:42:51 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:42:54 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:42:55 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:42:55 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:42:58 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:42:58 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 16:42:58 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 16:42:58 INFO  Search:40 - Search successful
+2019-04-13 16:44:45 INFO  TestBase:128 - Execution starts
+2019-04-13 16:44:45 INFO  TestBase:134 - Loading config.properties
+2019-04-13 16:44:45 INFO  TestBase:140 - Loading objectrepository.properties
+2019-04-13 16:44:45 INFO  TestBase:51 - Loading the properties
+2019-04-13 16:44:49 INFO  TestBase:102 - Launching Chrome browser
+2019-04-13 16:44:50 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:44:50 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:45:00 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:45:00 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:45:00 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:45:02 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:45:06 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:45:06 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:45:06 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:45:06 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-13 16:45:06 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:45:06 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:45:08 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:45:08 INFO  Selenium:112 - Typed dummy data text
+2019-04-13 16:45:08 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-13 16:45:10 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:45:10 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-13 16:45:10 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-13 16:45:10 INFO  Search:83 - No Results found
+2019-04-13 16:45:10 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:45:10 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:45:13 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:45:13 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:45:13 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:45:16 INFO  Selenium:179 - Enter key pressed
+2019-04-13 16:45:16 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 16:45:16 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 16:45:16 INFO  Search:104 - Result displayed
+2019-04-13 16:45:16 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:45:16 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:45:18 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:45:18 INFO  Selenium:112 - Typed Dress text
+2019-04-13 16:45:18 INFO  AppSpecificFns:74 - Searching for Dress
+2019-04-13 16:45:20 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 16:45:20 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2019-04-13 16:45:20 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 16:45:20 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2019-04-13 16:45:20 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2019-04-13 16:45:20 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : T-shirts > Faded Short Sleeve T-shirts
+2019-04-13 16:45:20 INFO  Search:146 - Searched text is not present in search list
+2019-04-13 16:45:20 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:45:20 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:45:24 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:45:24 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-13 16:45:24 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-13 16:45:26 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:45:26 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 16:45:26 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 16:45:26 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-13 16:45:26 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:45:26 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:45:30 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:45:31 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:45:31 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:45:33 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:45:33 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 16:45:33 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 16:45:33 INFO  Search:40 - Search successful
+2019-04-13 16:48:56 INFO  TestBase:128 - Execution starts
+2019-04-13 16:48:56 INFO  TestBase:134 - Loading config.properties
+2019-04-13 16:48:56 INFO  TestBase:140 - Loading objectrepository.properties
+2019-04-13 16:48:56 INFO  TestBase:51 - Loading the properties
+2019-04-13 16:48:59 INFO  TestBase:102 - Launching Chrome browser
+2019-04-13 16:53:11 INFO  TestBase:128 - Execution starts
+2019-04-13 16:53:11 INFO  TestBase:134 - Loading config.properties
+2019-04-13 16:53:11 INFO  TestBase:140 - Loading objectrepository.properties
+2019-04-13 16:53:11 INFO  TestBase:51 - Loading the properties
+2019-04-13 16:53:14 INFO  TestBase:102 - Launching Chrome browser
+2019-04-13 16:57:07 INFO  TestBase:128 - Execution starts
+2019-04-13 16:57:07 INFO  TestBase:134 - Loading config.properties
+2019-04-13 16:57:07 INFO  TestBase:140 - Loading objectrepository.properties
+2019-04-13 16:57:07 INFO  TestBase:51 - Loading the properties
+2019-04-13 16:57:10 INFO  TestBase:102 - Launching Chrome browser
+2019-04-13 16:57:11 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:57:11 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:57:19 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:57:19 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:57:19 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:57:21 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:57:25 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:57:25 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:57:25 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 16:57:25 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-13 16:57:25 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:57:25 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:57:27 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:57:27 INFO  Selenium:112 - Typed dummy data text
+2019-04-13 16:57:27 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-13 16:57:29 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:57:29 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-13 16:57:29 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-13 16:57:29 INFO  Search:83 - No Results found
+2019-04-13 16:57:29 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:57:29 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:57:32 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:57:32 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:57:32 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:57:34 INFO  Selenium:179 - Enter key pressed
+2019-04-13 16:57:34 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 16:57:34 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 16:57:34 INFO  Search:104 - Result displayed
+2019-04-13 16:57:34 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:57:34 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:57:37 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:57:37 INFO  Selenium:112 - Typed Dress text
+2019-04-13 16:57:37 INFO  AppSpecificFns:74 - Searching for Dress
+2019-04-13 16:57:39 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 16:57:39 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2019-04-13 16:57:39 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 16:57:39 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2019-04-13 16:57:39 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2019-04-13 16:57:39 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : T-shirts > Faded Short Sleeve T-shirts
+2019-04-13 16:57:39 INFO  Search:146 - Searched text is not present in search list
+2019-04-13 16:57:39 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:57:39 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:57:42 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:57:42 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-13 16:57:42 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-13 16:57:44 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:57:44 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 16:57:44 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 16:57:44 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-13 16:57:44 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 16:57:44 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 16:57:47 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 16:57:47 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 16:57:47 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 16:57:49 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 16:57:49 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 16:57:49 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 16:57:49 INFO  Search:40 - Search successful
+2019-04-13 17:00:57 INFO  TestBase:129 - Execution starts
+2019-04-13 17:00:57 INFO  TestBase:135 - Loading config.properties
+2019-04-13 17:00:57 INFO  TestBase:141 - Loading objectrepository.properties
+2019-04-13 17:00:57 INFO  TestBase:51 - Loading the properties
+2019-04-13 17:00:59 INFO  TestBase:103 - Launching Chrome browser
+2019-04-13 17:01:00 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 17:01:00 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 17:01:10 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 17:01:10 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 17:01:10 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 17:01:12 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 17:01:15 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 17:01:15 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 17:01:15 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-13 17:01:15 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-13 17:01:15 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 17:01:15 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 17:01:17 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 17:01:17 INFO  Selenium:112 - Typed dummy data text
+2019-04-13 17:01:17 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-13 17:01:19 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 17:01:19 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-13 17:01:19 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-13 17:01:19 INFO  Search:83 - No Results found
+2019-04-13 17:01:19 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 17:01:19 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 17:01:23 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 17:01:23 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 17:01:23 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 17:01:27 INFO  Selenium:179 - Enter key pressed
+2019-04-13 17:01:27 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 17:01:27 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 17:01:27 INFO  Search:104 - Result displayed
+2019-04-13 17:01:27 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 17:01:27 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 17:01:29 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 17:01:29 INFO  Selenium:112 - Typed Dress text
+2019-04-13 17:01:29 INFO  AppSpecificFns:74 - Searching for Dress
+2019-04-13 17:01:31 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 17:01:31 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2019-04-13 17:01:31 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-13 17:01:31 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2019-04-13 17:01:31 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2019-04-13 17:01:31 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : T-shirts > Faded Short Sleeve T-shirts
+2019-04-13 17:01:31 INFO  Search:146 - Searched text is not present in search list
+2019-04-13 17:01:31 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 17:01:31 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 17:01:34 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 17:01:34 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-13 17:01:34 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-13 17:01:38 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 17:01:38 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 17:01:38 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-13 17:01:38 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-13 17:01:38 INFO  Selenium:333 - Implicit wait is called
+2019-04-13 17:01:38 INFO  Selenium:349 - Setting page loading timeout
+2019-04-13 17:01:42 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-13 17:01:42 INFO  Selenium:112 - Typed Printed dress text
+2019-04-13 17:01:42 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-13 17:01:47 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-13 17:01:47 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-13 17:01:47 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-13 17:01:47 INFO  Search:40 - Search successful
+2019-04-21 13:58:10 INFO  TestBase:129 - Execution starts
+2019-04-21 13:58:10 INFO  TestBase:135 - Loading config.properties
+2019-04-21 13:58:10 INFO  TestBase:141 - Loading objectrepository.properties
+2019-04-21 13:58:10 INFO  TestBase:51 - Loading the properties
+2019-04-21 13:58:21 INFO  TestBase:103 - Launching Chrome browser
+2019-04-21 13:58:22 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 13:58:22 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 13:58:36 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 13:58:36 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 13:58:36 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 13:58:38 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 13:58:42 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 13:58:42 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 13:58:42 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 13:58:42 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-21 13:58:42 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 13:58:42 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 13:58:46 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 13:58:47 INFO  Selenium:112 - Typed dummy data text
+2019-04-21 13:58:47 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-21 13:58:50 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 13:58:50 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-21 13:58:50 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-21 13:58:50 INFO  Search:83 - No Results found
+2019-04-21 13:58:50 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 13:58:50 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 13:58:53 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 13:58:53 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 13:58:53 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 13:58:55 INFO  Selenium:179 - Enter key pressed
+2019-04-21 13:58:55 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 13:58:55 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 13:58:55 INFO  Search:104 - Result displayed
+2019-04-21 13:58:55 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 13:58:55 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 13:58:58 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 13:58:58 INFO  Selenium:112 - Typed Dress text
+2019-04-21 13:58:58 INFO  AppSpecificFns:74 - Searching for Dress
+2019-04-21 13:59:00 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-21 13:59:00 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2019-04-21 13:59:00 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-21 13:59:00 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2019-04-21 13:59:00 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2019-04-21 13:59:00 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : Blouses > Blouse
+2019-04-21 13:59:00 INFO  Search:146 - Searched text is not present in search list
+2019-04-21 13:59:00 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 13:59:00 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 13:59:03 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 13:59:04 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-21 13:59:04 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-21 13:59:06 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 13:59:06 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 13:59:06 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 13:59:06 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-21 13:59:06 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 13:59:06 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 13:59:08 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 13:59:09 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 13:59:09 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 13:59:11 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 13:59:11 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 13:59:11 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 13:59:11 INFO  Search:40 - Search successful
+2019-04-21 14:07:48 INFO  TestBase:129 - Execution starts
+2019-04-21 14:07:48 INFO  TestBase:135 - Loading config.properties
+2019-04-21 14:07:48 INFO  TestBase:141 - Loading objectrepository.properties
+2019-04-21 14:07:48 INFO  TestBase:51 - Loading the properties
+2019-04-21 14:07:53 INFO  TestBase:103 - Launching Chrome browser
+2019-04-21 14:07:56 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 14:07:56 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 14:08:06 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 14:08:06 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 14:08:06 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 14:08:09 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 14:08:14 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 14:08:14 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 14:08:14 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 14:08:14 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-21 14:08:14 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 14:08:14 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 14:08:18 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 14:08:18 INFO  Selenium:112 - Typed dummy data text
+2019-04-21 14:08:18 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-21 14:08:20 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 14:08:20 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-21 14:08:20 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-21 14:08:20 INFO  Search:83 - No Results found
+2019-04-21 14:08:20 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 14:08:20 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 14:08:23 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 14:08:23 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 14:08:23 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 14:08:26 INFO  Selenium:179 - Enter key pressed
+2019-04-21 14:08:26 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 14:08:26 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 14:08:26 INFO  Search:104 - Result displayed
+2019-04-21 14:08:26 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 14:08:26 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 14:08:28 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 14:08:28 INFO  Selenium:112 - Typed Dress text
+2019-04-21 14:08:28 INFO  AppSpecificFns:74 - Searching for Dress
+2019-04-21 14:08:30 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-21 14:08:30 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Evening Dresses > Printed Dress
+2019-04-21 14:08:30 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Summer Dress
+2019-04-21 14:08:30 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Summer Dresses > Printed Chiffon Dress
+2019-04-21 14:08:30 INFO  AppSpecificFns:81 - Searched text <Dress> is present in result : Casual Dresses > Printed Dress
+2019-04-21 14:08:30 INFO  AppSpecificFns:86 - Searched text <Dress> is not present in result : Blouses > Blouse
+2019-04-21 14:08:30 INFO  Search:146 - Searched text is not present in search list
+2019-04-21 14:08:30 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 14:08:30 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 14:08:34 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 14:08:35 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-21 14:08:35 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-21 14:08:37 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 14:08:37 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 14:08:37 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 14:08:38 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-21 14:08:38 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 14:08:38 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 14:08:42 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 14:08:42 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 14:08:42 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 14:08:48 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 14:08:48 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 14:08:48 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 14:08:48 INFO  Search:40 - Search successful
+2019-04-21 18:31:28 INFO  TestBase:129 - Execution starts
+2019-04-21 18:31:28 INFO  TestBase:135 - Loading config.properties
+2019-04-21 18:31:28 INFO  TestBase:141 - Loading objectrepository.properties
+2019-04-21 18:31:28 INFO  TestBase:51 - Loading the properties
+2019-04-21 18:31:34 INFO  TestBase:103 - Launching Chrome browser
+2019-04-21 18:31:36 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 18:31:36 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 18:31:44 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 18:31:44 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 18:31:44 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 18:31:47 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 18:31:50 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 18:31:50 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 18:31:50 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 18:31:50 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-21 18:31:50 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 18:31:50 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 18:31:52 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 18:31:52 INFO  Selenium:112 - Typed dummy data text
+2019-04-21 18:31:52 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-21 18:31:54 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 18:31:54 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-21 18:31:54 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-21 18:31:54 INFO  Search:83 - No Results found
+2019-04-21 18:31:54 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 18:31:54 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 18:31:57 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 18:31:57 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 18:31:57 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 18:31:59 INFO  Selenium:179 - Enter key pressed
+2019-04-21 18:31:59 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 18:31:59 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 18:31:59 INFO  Search:104 - Result displayed
+2019-04-21 18:31:59 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 18:31:59 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 18:32:02 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 18:32:02 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-21 18:32:02 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-21 18:32:04 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 18:32:04 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 18:32:04 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 18:32:04 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-21 18:32:04 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 18:32:04 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 18:32:06 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 18:32:06 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 18:32:06 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 18:32:08 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 18:32:08 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 18:32:08 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 18:32:08 INFO  Search:40 - Search successful
+2019-04-21 18:34:30 INFO  TestBase:129 - Execution starts
+2019-04-21 18:34:30 INFO  TestBase:135 - Loading config.properties
+2019-04-21 18:34:30 INFO  TestBase:141 - Loading objectrepository.properties
+2019-04-21 18:34:30 INFO  TestBase:51 - Loading the properties
+2019-04-21 18:34:33 INFO  TestBase:103 - Launching Chrome browser
+2019-04-21 18:34:34 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 18:34:34 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 18:34:40 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 18:34:40 INFO  Selenium:393 - Unable to find the web element : [Ljava.lang.StackTraceElement;@60bd273d
+2019-04-21 18:34:40 INFO  Selenium:116 - Element not found for the locator : searchbox
+2019-04-21 18:34:40 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 18:34:40 INFO  Selenium:393 - Unable to find the web element : [Ljava.lang.StackTraceElement;@5e600dd5
+2019-04-21 18:34:40 INFO  Selenium:393 - Unable to find the web element : [Ljava.lang.StackTraceElement;@576d5deb
+2019-04-21 18:34:40 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 18:34:40 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 18:34:55 INFO  Selenium:629 - Exception thrown : [Ljava.lang.StackTraceElement;@7526515b
+2019-04-21 18:34:55 INFO  Search:67 - Search an item and open product details page is failed
+2019-04-21 18:34:55 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 18:34:55 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 18:34:55 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 18:34:55 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 18:34:55 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 18:34:55 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 18:34:55 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 18:34:55 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 18:40:27 INFO  TestBase:130 - Execution starts
+2019-04-21 18:40:27 INFO  TestBase:136 - Loading config.properties
+2019-04-21 18:40:27 INFO  TestBase:142 - Loading objectrepository.properties
+2019-04-21 18:40:27 INFO  TestBase:51 - Loading the properties
+2019-04-21 18:43:48 INFO  TestBase:130 - Execution starts
+2019-04-21 18:43:48 INFO  TestBase:136 - Loading config.properties
+2019-04-21 18:43:48 INFO  TestBase:142 - Loading objectrepository.properties
+2019-04-21 18:43:48 INFO  TestBase:51 - Loading the properties
+2019-04-21 19:00:38 INFO  TestBase:130 - Execution starts
+2019-04-21 19:00:38 INFO  TestBase:136 - Loading config.properties
+2019-04-21 19:00:38 INFO  TestBase:142 - Loading objectrepository.properties
+2019-04-21 19:52:45 INFO  TestBase:130 - Execution starts
+2019-04-21 19:52:55 INFO  TestBase:136 - Loading config.properties
+2019-04-21 19:53:00 INFO  TestBase:142 - Loading objectrepository.properties
+2019-04-21 19:53:04 INFO  TestBase:51 - Loading the properties
+2019-04-21 20:00:22 INFO  TestBase:130 - Execution starts
+2019-04-21 20:00:22 INFO  TestBase:136 - Loading config.properties
+2019-04-21 20:00:22 INFO  TestBase:142 - Loading objectrepository.properties
+2019-04-21 20:00:22 INFO  TestBase:51 - Loading the properties
+2019-04-21 20:00:38 INFO  TestBase:82 - Launching Firefox browser
+2019-04-21 20:00:38 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:00:38 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:00:46 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:00:48 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 20:00:48 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 20:00:52 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:00:55 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:00:55 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 20:00:55 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 20:00:56 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-21 20:00:56 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:00:56 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:00:58 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:00:58 INFO  Selenium:112 - Typed dummy data text
+2019-04-21 20:00:58 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-21 20:01:00 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:01:00 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-21 20:01:00 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-21 20:01:00 INFO  Search:83 - No Results found
+2019-04-21 20:01:00 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:01:00 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:01:02 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:01:02 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 20:01:02 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 20:01:02 INFO  Selenium:179 - Enter key pressed
+2019-04-21 20:01:02 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 20:01:02 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 20:01:04 INFO  Search:104 - Result displayed
+2019-04-21 20:01:04 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:01:04 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:01:06 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:01:06 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-21 20:01:06 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-21 20:01:08 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:01:08 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 20:01:08 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 20:01:08 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-21 20:01:08 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:01:08 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:01:10 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:01:10 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 20:01:10 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 20:01:12 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:01:12 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 20:01:12 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 20:01:12 INFO  Search:40 - Search successful
+2019-04-21 20:01:59 INFO  TestBase:130 - Execution starts
+2019-04-21 20:01:59 INFO  TestBase:136 - Loading config.properties
+2019-04-21 20:01:59 INFO  TestBase:142 - Loading objectrepository.properties
+2019-04-21 20:01:59 INFO  TestBase:51 - Loading the properties
+2019-04-21 20:02:17 INFO  TestBase:82 - Launching Firefox browser
+2019-04-21 20:02:17 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:02:17 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:02:24 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:02:25 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 20:02:25 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 20:02:27 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:02:30 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:02:30 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 20:02:30 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 20:02:30 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-21 20:02:30 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:02:30 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:02:32 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:02:32 INFO  Selenium:112 - Typed dummy data text
+2019-04-21 20:02:32 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-21 20:02:34 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:02:34 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-21 20:02:34 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-21 20:02:34 INFO  Search:83 - No Results found
+2019-04-21 20:02:34 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:02:34 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:02:37 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:02:37 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 20:02:37 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 20:02:37 INFO  Selenium:179 - Enter key pressed
+2019-04-21 20:02:37 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 20:02:37 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 20:02:39 INFO  Search:104 - Result displayed
+2019-04-21 20:02:39 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:02:39 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:02:42 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:02:42 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-21 20:02:42 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-21 20:02:44 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:02:44 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 20:02:44 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 20:02:44 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-21 20:02:44 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:02:44 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:02:46 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:02:46 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 20:02:46 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 20:02:48 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:02:48 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 20:02:48 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 20:02:48 INFO  Search:40 - Search successful
+2019-04-21 20:03:27 INFO  TestBase:130 - Execution starts
+2019-04-21 20:03:27 INFO  TestBase:136 - Loading config.properties
+2019-04-21 20:03:27 INFO  TestBase:142 - Loading objectrepository.properties
+2019-04-21 20:03:27 INFO  TestBase:51 - Loading the properties
+2019-04-21 20:03:34 INFO  TestBase:82 - Launching Firefox browser
+2019-04-21 20:03:34 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:03:34 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:03:41 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:03:41 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 20:03:41 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 20:03:43 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:03:46 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:03:46 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 20:03:46 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/div/div/div[3]/h1
+2019-04-21 20:03:46 INFO  Search:62 - Able to Search and Open Product details Page
+2019-04-21 20:03:46 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:03:46 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:03:48 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:03:48 INFO  Selenium:112 - Typed dummy data text
+2019-04-21 20:03:48 INFO  AppSpecificFns:60 - Searching for dummy data
+2019-04-21 20:03:50 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:03:50 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : //*[@id="center_column"]/p
+2019-04-21 20:03:50 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : //*[@id="center_column"]/p
+2019-04-21 20:03:50 INFO  Search:83 - No Results found
+2019-04-21 20:03:50 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:03:50 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:03:52 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:03:52 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 20:03:52 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 20:03:52 INFO  Selenium:179 - Enter key pressed
+2019-04-21 20:03:52 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 20:03:52 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 20:03:54 INFO  Search:104 - Result displayed
+2019-04-21 20:03:54 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:03:54 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:03:57 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:03:57 INFO  Selenium:112 - Typed Faded Short Sleeve T-shirts text
+2019-04-21 20:03:57 INFO  AppSpecificFns:60 - Searching for Faded Short Sleeve T-shirts
+2019-04-21 20:03:59 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:03:59 INFO  Selenium:59 - Getting locator type : xpath Getting locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 20:03:59 INFO  Selenium:618 - Waiting for text to appear for the locator type : xpath locator value : /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+2019-04-21 20:03:59 INFO  Search:125 - Successfully performed search by using Special Character
+2019-04-21 20:03:59 INFO  Selenium:333 - Implicit wait is called
+2019-04-21 20:03:59 INFO  Selenium:349 - Setting page loading timeout
+2019-04-21 20:04:00 INFO  Selenium:204 - Navigating to http://automationpractice.com/index.php
+2019-04-21 20:04:01 INFO  Selenium:112 - Typed Printed dress text
+2019-04-21 20:04:01 INFO  AppSpecificFns:60 - Searching for Printed dress
+2019-04-21 20:04:03 INFO  Selenium:85 - WebElement for the locator is clicked
+2019-04-21 20:04:03 INFO  Selenium:59 - Getting locator type : class Getting locator value : heading-counter
+2019-04-21 20:04:03 INFO  Selenium:582 - Waiting for text to appear for the locator type : class locator value : heading-counter
+2019-04-21 20:04:03 INFO  Search:40 - Search successful

@@ -7,6 +7,18 @@
     </test>
 </suite>
 
+<!-- <suite name="RESTAutomation">
+    <test name="Reqres demo testing">
+        <classes>
+            <class name="com.seleniummaven.RESTTest.ReqresTest">
+                <methods>
+                    <include name="getMultiUsers"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> -->
+
 
 <!-- <suite name="Automation">
   <test name="Test One" >

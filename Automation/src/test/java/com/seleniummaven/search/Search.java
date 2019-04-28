@@ -133,7 +133,7 @@ public class Search extends TestBase
 			
 	}
 	
-	@Test //(enabled=false)
+	@Test (enabled=false)
 	public void searchResultDisplay() throws Exception
 	{
 		if(fns.resultDisplay("searchbox", "Dress"))
