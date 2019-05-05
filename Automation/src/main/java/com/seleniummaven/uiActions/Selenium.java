@@ -552,7 +552,7 @@ public class Selenium extends TestBase
 			}
 		}catch(Exception e)
 		{
-			logger.info("Exception thrown : "+e.getStackTrace());
+			logger.info("Exception thrown: "+e.getStackTrace());
 			return false;
 		}
 		
