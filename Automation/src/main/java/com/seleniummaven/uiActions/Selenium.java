@@ -491,6 +491,8 @@ public class Selenium extends TestBase
 				logger.info("Waiting for webelement to become clickable for the locator type : "+locatorType+
 						" locator value : "+locatorValue);
 				return wait.until(ExpectedConditions.elementToBeClickable(By.id(locatorValue))).isDisplayed();
+				
+				//Unwanted code
 				/*WebElement we = wait.until(ExpectedConditions.elementToBeClickable(By.id(locatorValue)));
 				if(we!=null)
 				{
