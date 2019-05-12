@@ -62,6 +62,7 @@ public class TestBase
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		selenium.setImplicitWait(Integer.parseInt(config.getImplcitWait()));
 		selenium.setPageLoadTimeout(Integer.parseInt(config.getPageLoadTimeOut()));
+		System.out.println("Launching browser");
 	}
 	public void getBrowser(String browser)
 	{
