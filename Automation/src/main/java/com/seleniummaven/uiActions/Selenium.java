@@ -1228,8 +1228,4 @@ public class Selenium extends TestBase
 		System.out.println("To test the new branch");
 	}
 	
-	public void newBranch2()
-	{
-		System.out.println("Branch 2");
-	}
 }
