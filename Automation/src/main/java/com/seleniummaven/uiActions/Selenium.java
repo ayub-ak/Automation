@@ -1222,4 +1222,9 @@ public class Selenium extends TestBase
 		}
 		
 	}*/
+	
+	public void newBranch1()
+	{
+		System.out.println("To test the new branch");
+	}
 }
