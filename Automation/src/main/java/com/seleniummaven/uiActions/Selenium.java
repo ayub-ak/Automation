@@ -1227,4 +1227,14 @@ public class Selenium extends TestBase
 	{
 		System.out.println("To test the new branch");
 	}
+	
+	public void HotFix1()
+	{
+		System.out.println("Hot fix codes included");
+	}
+	
+	public void HotFix1_New()
+	{
+		System.out.println("Hot fix codes included_New changes");
+	}
 }
