@@ -35,4 +35,10 @@ public class UtilFunctions extends TestBase
 		SimpleDateFormat formatter = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 		return formatter.format(calendar.getTime());
 	}
+	
+	public void newBranch2()
+	{
+		System.out.println("New branch code in different file");
+	}
+	
 }
