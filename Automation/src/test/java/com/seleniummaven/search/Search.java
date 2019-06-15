@@ -37,6 +37,8 @@ public class Search extends TestBase
 		if(selenium.waitForTextToAppear(15, OR.getProperty("searchresultstext"), 
 				"5 results have been found"))
 		{
+			
+			Selenium.getScreenShot("search");
 			logger.info("Search successful");
 			Assert.assertTrue(true);
 		}
