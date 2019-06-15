@@ -50,6 +50,7 @@ public class TestBase
 		loadPropertiesFile();
 		logger.info("Loading the properties");
 		getBrowser(config.getBrowser());
+		System.out.println("Adding code to check the stash operatio");
 		//getBrowser("chrome"); //Hardcoding needs to be removed
 		//selenium = new Selenium();
 		//fns = new AppSpecificFns();
