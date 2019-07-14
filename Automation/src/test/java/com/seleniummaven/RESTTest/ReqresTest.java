@@ -19,5 +19,11 @@ public class ReqresTest
 	{
 		rest.getUsers();
 	}
+	
+	@Test
+	public void testAPIMethod()
+	{
+		rest.createUserPost();
+	}
 
 }

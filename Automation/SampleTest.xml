@@ -1,23 +1,23 @@
-<suite name="Automation">
+<!-- <suite name="Automation">
     <test name="Regression">
         <classes>
             <class name="com.seleniummaven.search.Search">
             </class>
         </classes>
     </test>
-</suite>
+</suite> -->
 
-<!-- <suite name="RESTAutomation">
+<suite name="RESTAutomation">
     <test name="Reqres demo testing">
         <classes>
             <class name="com.seleniummaven.RESTTest.ReqresTest">
                 <methods>
-                    <include name="getMultiUsers"/>
+                    <include name="testAPIMethod"/>
                 </methods>
             </class>
         </classes>
     </test>
-</suite> -->
+</suite>
 
 
 <!-- <suite name="Automation">
