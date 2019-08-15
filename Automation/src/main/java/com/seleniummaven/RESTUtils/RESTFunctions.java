@@ -102,7 +102,7 @@ public class RESTFunctions
 			HttpClient httpclient = HttpClientBuilder.create().build();
 			HttpGet httpget = new HttpGet(URL);
 			httpget.addHeader("Content-type","application/json");
-			HttpResponse httpresponse = httpclient.execute(httpget);
+			HttpResponse httpresponse = httpclient.execute(httpget); 
 			if(httpresponse.getStatusLine().getStatusCode()==200)
 			{
 				BufferedReader br = new BufferedReader

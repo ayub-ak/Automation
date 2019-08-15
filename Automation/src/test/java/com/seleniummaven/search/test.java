@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import com.seleniummaven.appFunctions.AppSpecificFns;
 import com.seleniummaven.helper.Logger.LoggerHelper;
 import com.seleniummaven.testBase.TestBase;
+import com.seleniummaven.uiActions.Selenium;
 
 public class test 
 {
@@ -21,6 +22,18 @@ public class test
 		/*logger.info("Test msg 1"); */
 		boolean val =as.loginToApp();
 		System.out.println("Value : "+val);
+	}
+	
+	@Test
+	public void testFacebookLogin()
+	{
+		Selenium.testLogin();
+	}
+	
+	@Test
+	public void addReviewForWalletHub()
+	{
+		Selenium.addReviewAndVerify();
 	}
 	
 }

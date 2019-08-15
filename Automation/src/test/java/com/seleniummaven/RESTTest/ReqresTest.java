@@ -21,7 +21,13 @@ public class ReqresTest
 	}
 	
 	@Test
-	public void testAPIMethod()
+	public void singleUser()
+	{
+		rest.singleUserAPI();
+	}
+	
+	@Test
+	public void createUser()
 	{
 		rest.createUserPost();
 	}

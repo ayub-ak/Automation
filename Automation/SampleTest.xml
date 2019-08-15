@@ -7,7 +7,7 @@
     </test>
 </suite> -->
 
-<suite name="RESTAutomation">
+<!-- <suite name="RESTAutomation">
     <test name="Reqres demo testing">
         <classes>
             <class name="com.seleniummaven.RESTTest.ReqresTest">
@@ -17,7 +17,15 @@
             </class>
         </classes>
     </test>
-</suite>
+     <test name="Test One" >
+    <classes>
+        <class name="com.seleniummaven.search.Search"/>
+          <methods>
+              <include name="searchUsingSpecialChar"/>
+          </methods>       
+    </classes>
+    </test> 
+</suite> -->
 
 
 <!-- <suite name="Automation">
@@ -29,5 +37,18 @@
           </methods>       
     </classes>
     </test> 
+</suite> -->
+
+
+<suite name="Automation">
+    <test name="FacebookLogin">
+        <classes>
+            <class name="com.seleniummaven.search.test">
+                <methods>
+                    <!-- <include name="testFacebookLogin"/> -->  
+                    <include name="addReviewForWalletHub"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>
- -->
