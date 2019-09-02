@@ -27,11 +27,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.SkipException;
+//import org.testng.asserts.*;
+import org.testng.Assert;
 
 import com.seleniummaven.testBase.TestBase;
 import com.seleniummaven.utilfns.UtilFunctions;
 
-import junit.framework.Assert;
+//import junit.framework.Assert;
 
 
 /**
@@ -1347,7 +1349,8 @@ public class Selenium extends TestBase
 					isDisplayed())
 				System.out.println("5th Star is highlighted");
 			else
-				Assert.assertTrue("5th star is not highlighted", false);
+				Assert.assertTrue(false, "5th star is not highlighted");
+				//assertTrue("5th star is not highlighted", false);
 			
 			action.moveToElement(driver.findElement
 					(By.cssSelector("#reviews-section > div.review-stat-box > div.review-action.ng-enter-element > review-star > div > svg:nth-child(5)"))).

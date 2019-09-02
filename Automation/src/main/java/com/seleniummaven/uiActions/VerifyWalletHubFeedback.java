@@ -9,8 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
-import junit.framework.Assert;
+//import junit.framework.Assert;
 
 public class VerifyWalletHubFeedback 
 {
@@ -69,7 +70,7 @@ public class VerifyWalletHubFeedback
 					isDisplayed())
 				System.out.println("5th Star is highlighted");
 			else
-				Assert.assertTrue("5th star is not highlighted", false);
+				Assert.assertTrue(false,"5th star is not highlighted");
 			
 			action.moveToElement(driver.findElement
 					(By.cssSelector("#reviews-section > div.review-stat-box > div.review-action.ng-enter-element > review-star > div > svg:nth-child(5)"))).

@@ -1,30 +1,25 @@
-<!-- <suite name="Automation">
+<suite name="Automation">
     <test name="Regression">
         <classes>
             <class name="com.seleniummaven.search.Search">
+          		<methods>
+             		 <include name="searchUsingSpecialChar"/>
+          		</methods>             
             </class>
         </classes>
     </test>
-</suite> -->
+</suite>
 
 <!-- <suite name="RESTAutomation">
     <test name="Reqres demo testing">
         <classes>
             <class name="com.seleniummaven.RESTTest.ReqresTest">
-                <methods>
-                    <include name="testAPIMethod"/>
+                <methods> 
+                    <include name="singleUser"/>
                 </methods>
             </class>
         </classes>
     </test>
-     <test name="Test One" >
-    <classes>
-        <class name="com.seleniummaven.search.Search"/>
-          <methods>
-              <include name="searchUsingSpecialChar"/>
-          </methods>       
-    </classes>
-    </test> 
 </suite> -->
 
 
@@ -39,16 +34,16 @@
     </test> 
 </suite> -->
 
-
-<suite name="Automation">
+<!-- To test facebook login and review comment in WalletHub -->
+<!-- <suite name="Automation">
     <test name="FacebookLogin">
         <classes>
             <class name="com.seleniummaven.search.test">
                 <methods>
-                    <!-- <include name="testFacebookLogin"/> -->  
+                    <include name="testFacebookLogin"/>  
                     <include name="addReviewForWalletHub"/>
                 </methods>
             </class>
         </classes>
     </test>
-</suite>
+</suite> -->
