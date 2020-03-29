@@ -206,7 +206,7 @@ public class Selenium extends TestBase
 	{
 		if(url!=null)
 		{
-			if(url.toLowerCase().contains("http://"))
+			if(url.toLowerCase().contains("http://") || url.toLowerCase().contains("https://"))
 			{
 				driver.get(url);
 				logger.info("Navigating to "+url);

@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation" duration-ms="83410" started-at="2019-08-13T09:13:33Z" finished-at="2019-08-13T09:14:57Z">
+  <suite name="Automation" duration-ms="205785" started-at="2020-03-29T07:46:28Z" finished-at="2020-03-29T07:49:54Z">
     <groups>
     </groups>
-    <test name="FacebookLogin" duration-ms="83410" started-at="2019-08-13T09:13:33Z" finished-at="2019-08-13T09:14:57Z">
-      <class name="com.seleniummaven.search.test">
-        <test-method status="PASS" signature="addReviewForWalletHub()[pri:0, instance:com.seleniummaven.search.test@175c2241]" name="addReviewForWalletHub" duration-ms="83370" started-at="2019-08-13T14:43:34Z" finished-at="2019-08-13T14:44:57Z">
+    <test name="Regression" duration-ms="205785" started-at="2020-03-29T07:46:28Z" finished-at="2020-03-29T07:49:54Z">
+      <class name="com.testWalletHub.modules.Login">
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.testWalletHub.modules.Login@1aa7ecca]" name="loadProperties" is-config="true" duration-ms="196851" started-at="2020-03-29T13:16:28Z" finished-at="2020-03-29T13:19:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addReviewForWalletHub -->
-      </class> <!-- com.seleniummaven.search.test -->
-    </test> <!-- FacebookLogin -->
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:com.testWalletHub.modules.Login@1aa7ecca]" name="browserLaunch" is-config="true" duration-ms="38" started-at="2020-03-29T13:19:45Z" finished-at="2020-03-29T13:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.testWalletHub.modules.Login@1aa7ecca]" name="verifyLogin" duration-ms="8849" started-at="2020-03-29T13:19:45Z" finished-at="2020-03-29T13:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.testWalletHub.modules.Login@1aa7ecca]" name="tearUp" is-config="true" duration-ms="0" started-at="2020-03-29T13:19:54Z" finished-at="2020-03-29T13:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- com.testWalletHub.modules.Login -->
+    </test> <!-- Regression -->
   </suite> <!-- Automation -->
 </testng-results>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Testing on Wallet Hub -->
+<suite name"WalletHub">
+    <test name="FunctionalTesting">
+        <Classes>
+            <class name="com.testWalletHub.modules.Login"
+        </Classes>
+    </test>
+</suite>"

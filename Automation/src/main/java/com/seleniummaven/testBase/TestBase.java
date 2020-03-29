@@ -50,7 +50,7 @@ public class TestBase
 		loadPropertiesFile();
 		logger.info("Loading the properties");
 		getBrowser(config.getBrowser());
-		System.out.println("Adding code to check the stash operatio");
+		//System.out.println("Adding code to check the stash operatio");
 		//getBrowser("chrome"); //Hardcoding needs to be removed
 		//selenium = new Selenium();
 		//fns = new AppSpecificFns();
@@ -67,6 +67,7 @@ public class TestBase
 	}
 	public void getBrowser(String browser)
 	{
+		System.out.println("OS Details : "+System.getProperty("os.name"));
 		if(System.getProperty("os.name").contains("Window")) //To find the OS
 		{
 			if(browser.equalsIgnoreCase("firefox"))
@@ -81,6 +82,7 @@ public class TestBase
 				{
 					System.setProperty("webdriver.gecko.driver", config.getFirefoxDriver());
 					driver = new FirefoxDriver();
+					driver.manage().window().maximize();
 					logger.info("Launching Firefox browser");
 				}
 				

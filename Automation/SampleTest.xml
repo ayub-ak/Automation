@@ -1,10 +1,13 @@
 <suite name="Automation">
     <test name="Regression">
         <classes>
-            <class name="com.seleniummaven.search.Search">
+           <!--  <class name="com.seleniummaven.search.Search">
           		<methods>
              		 <include name="searchUsingSpecialChar"/>
           		</methods>             
+            </class> -->
+            <class name="com.testWalletHub.modules.Login">
+              
             </class>
         </classes>
     </test>

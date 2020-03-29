@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Automation">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.seleniummaven.search.test" hash-for-method="addReviewForWalletHub">addReviewForWalletHub</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.testWalletHub.modules.Login" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation -->
@@ -120,14 +120,14 @@
           <div class="suite-Automation-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.seleniummaven.search.test</span>
+              <span class="class-name">com.testWalletHub.modules.Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addReviewForWalletHub">
-                  </a> <!-- addReviewForWalletHub -->
-                  <span class="method-name">addReviewForWalletHub</span>
+                  <a name="verifyLogin">
+                  </a> <!-- verifyLogin -->
+                  <span class="method-name">verifyLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,15 +142,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Automation&quot;&gt;
-  &lt;test name=&quot;FacebookLogin&quot;&gt;
+  &lt;test name=&quot;Regression&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.seleniummaven.search.test&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;addReviewForWalletHub&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.seleniummaven.search.test --&gt;
+      &lt;class name=&quot;com.testWalletHub.modules.Login&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- FacebookLogin --&gt;
+  &lt;/test&gt; &lt;!-- Regression --&gt;
 &lt;/suite&gt; &lt;!-- Automation --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -162,7 +158,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">FacebookLogin (1 class)</span>
+                <span class="test-name">Regression (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addReviewForWalletHub')
-data.setCell(0, 2, 'com.seleniummaven.search.test')
-data.setCell(0, 3, 83370);
+data.setCell(0, 1, 'verifyLogin')
+data.setCell(0, 2, 'com.testWalletHub.modules.Login')
+data.setCell(0, 3, 8849);
 window.suiteTableData['Automation']= { tableData: data, tableDiv: 'times-div-Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Automation">
               </div> <!-- times-div-Automation -->
             </div> <!-- times-div -->
@@ -212,18 +208,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.seleniummaven.search.test</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">testmethod</span>
-                <br/>
-                <span class="ignored-method-name">testFacebookLogin</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Automation" class="panel">
@@ -232,11 +219,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.seleniummaven.search.test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">addReviewForWalletHub</span>
+              <div class="chronological-class-name">com.testWalletHub.modules.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loadProperties</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch</span>
+                <span class="method-start">196883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin</span>
+                <span class="method-start">196921 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">205772 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

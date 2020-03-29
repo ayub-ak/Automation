@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Automation]">
-  <test name="FacebookLogin(failed)">
+  <test name="Regression(failed)">
     <classes>
-      <class name="com.seleniummaven.search.test">
+      <class name="com.testWalletHub.modules.Login">
         <methods>
-          <include name="addReviewForWalletHub"/>
+          <include name="loadProperties"/>
+          <include name="verifyLogin"/>
+          <include name="tearUp"/>
+          <include name="browserLaunch"/>
         </methods>
-      </class> <!-- com.seleniummaven.search.test -->
+      </class> <!-- com.testWalletHub.modules.Login -->
     </classes>
-  </test> <!-- FacebookLogin(failed) -->
+  </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [Automation] -->
